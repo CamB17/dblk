@@ -1,0 +1,70 @@
+@import "sass-globals";
+@import url("//use.typekit.net/tyu1cyx.css");
+
+h1,
+.h1 {
+    @include h1;
+}
+
+h2,
+.h2 {
+    @include h2;
+}
+
+h3,
+.h3 {
+    @include h3;
+}
+
+h4,
+.h4 {
+    @include h4;
+}
+
+h5,
+.h5 {
+    @include h5;
+}
+
+h6,
+.h6 {
+    @include h6;
+}
+
+a {
+    color: $black;
+}
+
+li {
+    @include p;
+
+    span.list_large {
+        @include p_large;
+    }
+}
+
+// paragraph styles
+p {
+    @include p;
+
+    &.large {
+        @include p_large;
+    }
+
+    &.small {
+        @include p_small;
+    }
+
+    &.legal {
+        @include p_legal;
+    }
+
+    a {
+        text-decoration: underline;
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

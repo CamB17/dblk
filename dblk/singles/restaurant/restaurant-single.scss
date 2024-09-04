@@ -1,0 +1,266 @@
+@import "sass-globals";
+
+.restaurant-single {
+    padding-bottom: 50px;
+
+    .gallery {
+        padding: 0 30px 0 0;
+        z-index: 1;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        position: relative;
+
+        .slick-list {
+            .slick-track {
+                .image {
+                    background-size: cover;
+                    height: 100%;
+                }
+                // Target added div from updating slick to 1.8.1
+                .slick-slide > div {
+                    height: 100%;
+                }
+                
+            }
+        }
+
+        .slick-dots {
+            display: flex;
+            justify-content: flex-end;
+            bottom: -40px;
+            right: 30px;
+
+            li {
+                button {
+                    width: 18px;
+                    height: 18px;
+                    padding: 2px;
+
+                    &:before {
+                        width: 20px;
+                        height: 20px;
+                        content: '';
+                        opacity: 1;
+                        background-image: url('../../../../_images/empty_circle.svg');
+                        background-size: 20px;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                &.slick-active,
+                &:hover {
+                    button {
+                        &:before {
+                            background-image: url('../../../../_images/active_circle.svg');
+                        }
+                    }
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            border-radius: 0;
+            padding: 0;
+            position: absolute;
+            bottom: 0;
+            top: auto;
+            transform: none;
+            right: 30px;
+            left: auto;
+            width: 50px;
+            height: 50px;
+            padding: 12px;
+
+            &:before {
+                display: none;
+            }
+        }
+
+        .slick-prev {
+            transform: rotate(180deg);
+            right: 81px;
+        }
+    }
+
+    .intro {
+        background-color: $tan;
+        position: relative;
+        padding: 40px 0 40px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+            max-width: 300px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        &:before {
+            content: '';
+            top: 0;
+            position: absolute;
+            height: 100%;
+            width: 350px;
+            left: -350px;
+            background-color: $tan;
+            z-index: -1;
+        }
+
+        .fm_button {
+            margin-top: 25px;
+        }
+
+        .h5 {
+            margin: 30px 0 5px 0;
+
+            a {
+                text-decoration: none;
+                color: $black;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .description {
+        margin-bottom: 50px;
+
+        .fm_button {
+            margin-top: 25px;
+        }
+    }
+
+    .slider_intro {
+        margin-bottom: 70px;
+
+        .medium-7 {
+            position: relative;
+            padding-left: 0;
+
+            .blob {
+                position: absolute;
+                z-index: 0;
+                bottom: 5px;
+                left: calc((100vw - 1200px) / 2);
+            }
+        }
+        
+        .medium-5 {
+            padding-right: calc((100vw - 1200px) / 2);
+            padding-left: 0;
+            @include lt-custom(1200px) {
+                padding-right: 15px;
+            }
+            @include lt-md {
+                padding-left: 15px;
+            }
+        }
+
+
+        @include lt-md {
+            flex-direction: column-reverse;
+
+            .gallery {
+                margin: 0 0 15px 0;
+                padding-right: 0;
+                padding-left: 15px;
+            }
+        }
+    }
+
+    .hours_info {
+        @include lt-md {
+
+            .description {
+                margin: 0 0 30px 0;
+            }
+        }
+    }
+
+    .info {
+        @include lt-md() {
+            order: 2;
+        }
+        >div {
+            margin-bottom: 30px;
+
+            &.social {
+                a {
+                    margin-right: 15px;
+
+                    img {
+                        transition: 0.25s all;
+                    }
+
+                    &:hover {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+
+            span {
+                display: block;
+                width: 100%;
+
+                &.hours {
+                    margin-bottom: 12px;
+                }
+            }
+
+            h4 {
+                margin-bottom: 12px;
+                color: $red;
+            }
+
+            a,
+            p {
+                color: $black;
+            }
+
+            a {
+                text-decoration: none;
+                word-wrap: break-word;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            strong {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .description {
+         @include lt-md() {
+            order: 1;
+        }
+    }
+    .button {
+         @include lt-md() {
+            order: 3;
+        }
+    }
+    
+    .back-to-all {
+        margin-top: 50px;
+        .button {
+            justify-content: flex-end;
+            display: flex;
+        }
+        .fm_button {
+            margin-bottom: 0;
+        }
+    }
+}

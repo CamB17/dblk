@@ -1,0 +1,130 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../singles/shop/shop-single.scss */
+.restaurant-single.shop-service-single {
+  padding-bottom: 50px; }
+  /* line 8, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .top_content .medium-7 {
+    padding-left: 0; }
+    /* line 11, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .top_content .medium-7 .gallery {
+      display: flex;
+      width: 100%;
+      height: 100%; }
+      /* line 16, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .top_content .medium-7 .gallery .image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center; }
+  /* line 25, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .top_content .medium-5 {
+    padding-top: 120px;
+    padding-bottom: 120px; }
+  /* line 32, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .intro {
+    background-color: #F2EDEB;
+    position: relative;
+    padding: 40px 0 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    /* line 41, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .intro img {
+      max-width: 300px;
+      margin-bottom: 30px;
+      width: 100%; }
+    /* line 47, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .intro:before {
+      content: '';
+      top: 0;
+      position: absolute;
+      height: 100%;
+      width: 350px;
+      left: -350px;
+      background-color: #F2EDEB;
+      z-index: -1; }
+    /* line 58, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .intro .fm_button {
+      margin-top: 25px; }
+    /* line 62, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .intro h5 {
+      margin: 30px 0 5px 0; }
+      /* line 65, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .intro h5 a {
+        text-decoration: none;
+        color: #000000; }
+        /* line 69, ../../singles/shop/shop-single.scss */
+        .restaurant-single.shop-service-single .intro h5 a:hover {
+          text-decoration: underline; }
+  /* line 76, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .description {
+    margin-bottom: 50px; }
+    /* line 79, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .description .fm_button {
+      margin-top: 25px; }
+  /* line 84, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .hours_info {
+    padding-top: 100px; }
+    @media only screen and (max-width: 640px) {
+      /* line 84, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .hours_info {
+        flex-direction: column-reverse; }
+        /* line 89, ../../singles/shop/shop-single.scss */
+        .restaurant-single.shop-service-single .hours_info .description {
+          margin: 0 0 30px 0; } }
+  /* line 96, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .info > div {
+    margin-bottom: 30px; }
+    /* line 100, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div.social a {
+      margin-right: 15px; }
+      /* line 103, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .info > div.social a img {
+        transition: 0.25s all; }
+      /* line 108, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .info > div.social a:hover img {
+        transform: scale(1.1); }
+    /* line 115, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div span {
+      display: block;
+      width: 100%; }
+      /* line 119, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .info > div span.hours {
+        margin-bottom: 12px; }
+    /* line 124, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div h4 {
+      margin-bottom: 12px;
+      color: #DF2F30; }
+    /* line 129, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div a,
+    .restaurant-single.shop-service-single .info > div p {
+      color: #000000; }
+    /* line 134, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div a {
+      text-decoration: none; }
+      /* line 137, ../../singles/shop/shop-single.scss */
+      .restaurant-single.shop-service-single .info > div a:hover {
+        text-decoration: underline; }
+    /* line 142, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .info > div strong {
+      display: block;
+      width: 100%; }
+  /* line 149, ../../singles/shop/shop-single.scss */
+  .restaurant-single.shop-service-single .back-to-all {
+    margin-top: 50px; }
+    /* line 151, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .back-to-all .button {
+      justify-content: flex-end;
+      display: flex; }
+    /* line 155, ../../singles/shop/shop-single.scss */
+    .restaurant-single.shop-service-single .back-to-all .fm_button {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=shop-single.css.map */

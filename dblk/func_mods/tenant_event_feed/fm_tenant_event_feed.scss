@@ -1,0 +1,51 @@
+@import "sass-globals";
+
+.tenant-events {
+    background-color: $tan;
+    
+    &__headline {
+        padding-bottom: 50px;
+        
+        &--action {
+            @include gt-sm() {
+                display: flex;
+                justify-content: flex-end;
+                align-items: baseline;
+            }
+        }
+        
+    }
+    
+    &__feed {
+        .event_tile {
+            position: relative;
+            background-color: $white;
+            
+             h2 {
+                font-size: 1.5rem;
+                line-height: 1.35;
+            }
+            
+            .location {
+                display: none;
+            }
+            
+            .fm_button {
+                background: transparent;
+                color: $black;
+                &:after {
+                    background-image: url(../../../../_images/icon_button_arrow_black.svg);
+                }
+            }
+            
+            &:hover,
+            &:focus {
+                .fm_button {
+                    &:after {
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

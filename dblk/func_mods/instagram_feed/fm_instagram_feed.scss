@@ -1,0 +1,91 @@
+@import "sass-globals";
+
+.fm_instagram_feed {
+    .title {
+        margin-bottom: 30px;
+
+        .column {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            @include lt-md {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .h1 {
+                margin: 0 20px 0 0;
+
+                @include lt-md {
+                    margin: 0 0 20px;
+                }
+            }
+
+            .handle {
+                margin-left: auto;
+                display: flex;
+                align-items: center;
+
+                @include lt-md {
+                    margin-left: 0;
+                    margin-right: auto;
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 18px;
+                }
+
+                a {
+                    margin: 0;
+                    text-decoration: none;
+                    color: $black;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    background-image: url(/wp-content/themes/jr3/_images/blobs/blob-bg-feed.svg) !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 170px;
+
+    #sb_instagram {
+
+        .sb_instagram_header,
+        .sbi_info_wrapper,
+        .sbi_follow_btn {
+            display: none;
+        }
+
+        .sbi_load_btn {
+            font-size: 21px !important;
+            letter-spacing: 0 !important;
+            line-height: 21px !important;
+            background-color: $black !important;
+            color: $white !important;
+            font-family: $headline_aw_serif !important;
+            border: 1px solid $white !important;
+            box-shadow: none !important;
+            padding: 12px !important;
+            border-radius: 4px !important;
+            transition: 0.25s all !important;
+
+            &:hover {
+                cursor: pointer !important;
+                background-color: $white !important;
+                color: $black !important;
+                border-color: $black !important;
+            }
+        }
+    }
+}

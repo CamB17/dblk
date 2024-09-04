@@ -1,0 +1,60 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/icon_grid/fm_icon_grid.scss */
+.fm_icon_grid {
+  background-color: #F2EDEB !important; }
+  /* line 6, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid .fm_icon {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px; }
+    /* line 14, ../../func_mods/icon_grid/fm_icon_grid.scss */
+    .fm_icon_grid .fm_icon svg {
+      max-width: 102px;
+      max-height: 102px; }
+  /* line 20, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid h5 {
+    color: #9b5b00;
+    margin-bottom: 10px; }
+  /* line 25, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid h1 {
+    margin-bottom: 50px; }
+  /* line 29, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid h2,
+  .fm_icon_grid h6,
+  .fm_icon_grid .h6 {
+    display: flex;
+    justify-content: center;
+    margin: auto; }
+  /* line 37, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid h6,
+  .fm_icon_grid .h6 {
+    width: 75%;
+    text-align: center;
+    margin-top: 4px; }
+  /* line 44, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid .icon_headlines {
+    text-align: center;
+    margin: auto; }
+  /* line 49, ../../func_mods/icon_grid/fm_icon_grid.scss */
+  .fm_icon_grid .icon_columns {
+    display: flex;
+    justify-content: center; }
+    @media only screen and (max-width: 1024px) {
+      /* line 49, ../../func_mods/icon_grid/fm_icon_grid.scss */
+      .fm_icon_grid .icon_columns {
+        margin-bottom: 50px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 49, ../../func_mods/icon_grid/fm_icon_grid.scss */
+      .fm_icon_grid .icon_columns {
+        margin-bottom: 30px; } }
+
+/*# sourceMappingURL=fm_icon_grid.css.map */

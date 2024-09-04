@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom_ajax.css",
+	"sources": [
+		"../../../../../page_builder/_unused/custom_ajax/custom_ajax.scss",
+		"../../../../../_engine/grunt/sass-globals.scss",
+		"../../../../../_engine/scss/_variables.scss",
+		"../../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG"
+}

@@ -1,0 +1,97 @@
+{
+    "key": "group_5d4b5dbde6f1f",
+    "title": "FM: In-Page Navigation",
+    "fields": [
+        {
+            "key": "field_5d4b5dd1683f5",
+            "label": "Navigation Items",
+            "name": "navigation_items",
+            "type": "repeater",
+            "instructions": "Each one of these in-page navigation items' Custom ID needs to correspond to a page builder element's Custom ID setting which you can find in each one's Advanced Module Settings.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "acfe_repeater_stylised_button": 0,
+            "collapsed": "field_5d4b5de6683f6",
+            "min": 1,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Menu Item",
+            "acfe_field_group_condition": 0,
+            "sub_fields": [
+                {
+                    "key": "field_5d4b5de6683f6",
+                    "label": "Display Text",
+                    "name": "display_text",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d4b5dec683f7",
+                    "label": "Element ID",
+                    "name": "element_id",
+                    "type": "text",
+                    "instructions": "This should not include the hashtag. Example: content.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1663091549,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

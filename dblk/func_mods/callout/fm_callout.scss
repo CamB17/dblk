@@ -1,0 +1,53 @@
+@import "sass-globals";
+
+.fm_callout {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+    .callout {
+        
+        img {
+            position: absolute;
+            z-index: 0;
+            bottom: 0;
+            right: 0;
+            width: auto;
+            height: 100%;
+        }
+        
+        .columns {
+            z-index: 1;
+        }
+        
+        h3 {
+            margin: 0;
+    
+            @include lt-md {
+                margin-bottom: 20px;
+            }
+        }
+    
+    
+        .button_hold {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+    
+            .fm_button {
+                margin: 0;
+            }
+    
+            @include lt-md {
+                justify-content: flex-start;
+            }
+        }
+    }
+    
+    .bg_rust3 {
+        .fm_button {
+            &.secondary {
+                background-color: $burnt_umber;
+            }
+        }
+    }
+}

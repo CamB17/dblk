@@ -1,0 +1,142 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+.fm_mainstage_area {
+  padding: 0px; }
+  /* line 6, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+  .fm_mainstage_area .slide {
+    height: calc(90vh - 100px);
+    min-height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    position: relative; }
+    @media only screen and (max-width: 640px) {
+      /* line 6, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .slide {
+        min-height: 60vh;
+        height: 60vh; } }
+    /* line 21, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position: absolute;
+      top: 0; }
+    /* line 30, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide .row {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      max-width: 100%;
+      height: 50%;
+      background: linear-gradient(to bottom, transparent, #000000); }
+      /* line 38, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .slide .row .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative; }
+        @media only screen and (min-width: 640px) {
+          /* line 38, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row .column {
+            padding-left: 30px; } }
+        @media only screen and (min-width: 1024px) {
+          /* line 38, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row .column {
+            padding-left: 60px; } }
+        @media only screen and (min-width: 1440px) {
+          /* line 38, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row .column {
+            padding-left: 110px; } }
+        /* line 56, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .row .column .ms_arrow {
+          position: absolute;
+          bottom: -100px;
+          left: 0; }
+          @media only screen and (max-width: 1440px) {
+            /* line 56, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .slide .row .column .ms_arrow {
+              max-height: 290px; } }
+          @media only screen and (max-width: 1024px) {
+            /* line 56, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .slide .row .column .ms_arrow {
+              left: -25px;
+              max-height: 230px; } }
+          @media only screen and (max-width: 640px) {
+            /* line 56, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .slide .row .column .ms_arrow {
+              display: none; } }
+      /* line 76, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .slide .row h1 {
+        color: #ffffff;
+        margin-bottom: 0;
+        text-transform: uppercase; }
+        @media only screen and (max-width: 1024px) {
+          /* line 76, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row h1 {
+            margin-bottom: -7px;
+            font-size: 80px;
+            line-height: 68px; } }
+        @media only screen and (max-width: 640px) {
+          /* line 76, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row h1 {
+            font-size: 50px;
+            line-height: 53px;
+            margin-bottom: -10px; } }
+        @media only screen and (min-width: 1024px) {
+          /* line 76, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row h1 {
+            font-size: 120px;
+            letter-spacing: -2px;
+            margin-bottom: -9px;
+            line-height: 100px; } }
+        @media only screen and (min-width: 1440px) {
+          /* line 76, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .slide .row h1 {
+            font-size: 160px;
+            letter-spacing: -2px;
+            line-height: 120px; } }
+        /* line 107, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .row h1 span {
+          font-weight: 500; }
+        /* line 111, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .row h1 strong {
+          display: block;
+          width: 100%; }
+  /* line 119, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+  .fm_mainstage_area .bottom_area {
+    padding: 30px 0 100px; }
+    @media only screen and (max-width: 640px) {
+      /* line 119, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .bottom_area {
+        padding: 30px 0 80px; } }
+    /* line 126, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .bottom_area .row {
+      width: 100%;
+      max-width: 100%; }
+    @media only screen and (min-width: 640px) {
+      /* line 131, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .bottom_area .small-12 {
+        padding-left: 35px; } }
+    @media only screen and (min-width: 1024px) {
+      /* line 131, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .bottom_area .small-12 {
+        padding-left: 65px; } }
+    @media only screen and (min-width: 1440px) {
+      /* line 131, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .bottom_area .small-12 {
+        padding-left: 115px; } }
+    /* line 144, ../../func_mods/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .bottom_area .small-12 span {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=fm_mainstage_area.css.map */

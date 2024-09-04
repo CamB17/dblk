@@ -1,0 +1,55 @@
+// theme fonts
+$headline_jokker: "Jokker", sans-serif;
+$sans: $headline_jokker;
+// $sans: "poppins", sans-serif;
+// $headline: $sans;
+// $headline_aw_serif: "brandon-grotesque", sans-serif;
+$headline_clemente: "San Clemente", sans-serif;
+
+$headline_aw_serif_tall: "awesome_serif_xt", sans-serif;
+$headline_aw_serif: "awesome_serif", sans-serif;
+$headline: $headline_jokker;
+
+// theme colors
+$light_gray: #f1f1f1;
+$dark_gray: #434343;
+$white: #ffffff;
+$black: #000000;
+$primary: #3381c6;
+$secondary: #8211eb;
+$greige: #81746E;
+$burnt_umber: #ba5d00;
+$tan: #F2EDEB;
+$cotton_candy: #F0AE84;
+$mint: #C4DBCB;
+$marigold: #A86600;
+$marigold3: #9b5b00; // ADA color contrast adjustment
+$red: #DF2F30;
+$teal: #0B856F;
+$blue: #030A56;
+$rust: #D18233;
+$rust3: #E07731;
+$red3: #f64741;
+$teal3: #29967F;
+$greige3: #a0928c;
+$burnt_orange: #F2A53F;
+$dark_orange: #BC5911;
+
+// theme paddings
+$xs-spacing: 15px;
+$small-spacing: 30px;
+$medium-spacing: 70px;
+$large-spacing: 105px;
+
+// foundation colors
+$foundation-palette: ( primary: $primary, secondary: $secondary, success: #3adb76, warning: #ffae00, alert: #ec5840, );
+$dark-gray: $dark_gray;
+$light-gray: $light_gray;
+$body-background: $white;
+$body-font-color: $black;
+$body-font-family: $sans;
+
+// foundation sizes
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;

@@ -1,0 +1,5 @@
+// for some reason the loadPath option in grunt simply won't work
+// therefore, this needs to stay here in order to allow for global
+// importing without having to specify the relative url
+@import "../scss/variables";
+@import "../scss/mixins";

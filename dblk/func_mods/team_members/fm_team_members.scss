@@ -1,0 +1,11 @@
+@import "sass-globals";
+
+.fm_team_members {
+    .intro {
+        .button_hold {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+    }
+}

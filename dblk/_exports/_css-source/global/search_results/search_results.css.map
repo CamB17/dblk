@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "search_results.css",
+	"sources": [
+		"../../../../global/search_results/search_results.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG"
+}

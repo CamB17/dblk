@@ -1,0 +1,380 @@
+@import "sass-globals";
+
+
+
+.event_tile {
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 0px;
+
+        .image {
+            overflow: hidden;
+            position: relative;
+            padding-top: 61.72839506%;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.25s ease all;
+            }
+        }
+
+        .event_tile_inner {
+            border-bottom-width: 2px;
+            padding: $small-spacing;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .location {
+                display: block;
+                font-weight: 600;
+            }
+
+            .categories {
+                .cat {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .fm_button {
+                margin-top: $xs-spacing;
+                transition: 0.25s ease all;
+            }
+        }
+
+    }
+
+.fm_events_feed {
+    background-color: $white;
+    padding-top: 0;
+
+    .event_intro {
+        padding: 40px 0;
+
+        @include gt-sm() {
+            padding: 50px 0;
+        }
+
+        @include gt-md() {
+            padding: 65px 0;
+        }
+
+        .h1 {
+            margin: 0;
+        }
+
+        .fm_button {
+            margin-bottom: 0;
+        }
+
+        .medium-3 {
+            display: flex;
+            justify-content: flex-end;
+
+            @include lt-lg {
+                margin-top: 15px;
+            }
+
+            @include lt-md {
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .events_tile_hold {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 20px;
+
+        .slick-prev,
+        .slick-next {
+            top: auto;
+            bottom: -65px;
+            transition: 0.25s ease all;
+            padding: 0;
+            
+            &:before {
+                display: none;
+            }
+
+            &.slick-disabled {
+                opacity: 0;
+                visibility: hidden;
+            }
+            
+            img {
+                padding: 10px;
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .slick-prev {
+            left: auto;
+            right: 75px;
+        }
+
+        .slick-track {
+            display: flex;
+            background: $black;
+
+            .slick-slide {
+                height: auto;
+                display: flex;
+            }
+        }
+
+        .slide {
+            @include lt-lg {
+                width: 100%;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .day_tile {
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    span {
+                        margin: 0 5px;
+                    }
+                }
+
+                .event_tile {
+                    flex-direction: row;
+                    max-width: 100%;
+                    min-width: 100%;
+
+                    .image {
+                        width: 40%;
+                        padding: 0;
+                    }
+
+                    .event_tile_inner {
+                        width: 60%;
+                        border: none;
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .event_tile {
+        max-width: 325px;
+        min-width: 325px;
+        border-bottom: 1px solid $black;
+        border-top: 1px solid $black;
+        background-color: $light_gray;
+        transition: 0.25s ease all;
+
+        .image {
+            border-right: 1px solid $white;
+            overflow: hidden;
+            position: relative;
+            padding-top: 61.72839506%;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.25s ease all;
+            }
+        }
+
+        .event_tile_inner {
+            border-right: 1px solid $black;
+            border-top: none;
+            border-bottom-width: 2px;
+            padding: $small-spacing;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .location {
+                display: block;
+                font-weight: 600;
+            }
+
+            .categories {
+                .cat {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .fm_button {
+                margin-top: $xs-spacing;
+                transition: 0.25s ease all;
+            }
+        }
+
+    }
+
+    .day_tile {
+        padding: 165px 20px 20px 20px;
+        width: 150px;
+
+        .day {
+            @include h4();
+            font-size: 28px !important;
+            margin-bottom: 10px;
+        }
+
+        .date_month,
+        .date_day {
+            @include h2();
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+
+        .date_day {
+            font-weight: 400;
+        }
+    }
+
+    .end_tile {
+        padding: 32px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        @include lt-lg {
+            width: 100%;
+            background-color: $black;
+        }
+    }
+
+
+    .standard_event_tile {
+        &.event_tile {
+            .event_tile_inner {
+                h2 {
+                    @include h3();
+                }
+
+                .title,
+                .details,
+                .categories {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                }
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $white;
+
+                .image {
+                    img {
+                        transform: scale(1.075);
+                    }
+                }
+
+                .fm_button {
+
+                    &:after {
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .featured_event_tile {
+        margin-bottom: $small-spacing;
+
+        @include gt-sm() {
+            align-items: stretch;
+            display: flex;
+        }
+
+        &.event_tile {
+            max-width: none;
+            border-right: none;
+            border-top: none;
+            margin-bottom: 0;
+
+            @include gt-sm() {
+                flex-direction: row;
+            }
+
+            .h5 {
+                margin-bottom: 15px;
+            }
+
+            .image {
+                @include gt-sm() {
+                    padding-top: 30%;
+                    width: 50%;
+                }
+
+                @include gt-md() {
+                    width: 60%;
+                }
+            }
+
+            .event_tile_inner {
+                border-right: none;
+
+                @include gt-sm() {
+                    padding: $small-spacing * 2 $small-spacing;
+                }
+
+                @include gt-md() {
+                    width: 40%;
+                    padding: $small-spacing * 2;
+                }
+
+                @include gt-lg() {
+                    padding-right: 0;
+                    max-width: calc(75rem / 2.85);
+                }
+
+                h2 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .details {
+                p {
+                    @include p_large();
+                }
+            }
+
+            .bottom {
+                margin-top: auto;
+            }
+        }
+    }
+
+}

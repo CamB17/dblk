@@ -1,0 +1,26 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 2, ../../singles/news/news-single.scss */
+.news_single {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../singles/news/news-single.scss */
+    .news_single {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../singles/news/news-single.scss */
+    .news_single {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  /* line 6, ../../singles/news/news-single.scss */
+  .news_single .row .columns .button.back {
+    margin: 25px 0px 0px; }
+
+/*# sourceMappingURL=news-single.css.map */

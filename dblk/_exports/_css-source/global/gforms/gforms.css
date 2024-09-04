@@ -1,0 +1,32 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 23, ../../global/gforms/gforms.scss */
+.gform_wrapper form .gform_body ul.gform_fields li.gfield .gfield_checkbox li input[type=checkbox] {
+  margin-top: 0; }
+
+/* line 29, ../../global/gforms/gforms.scss */
+.gform_wrapper form .gform_body .gform_heading p {
+  margin-bottom: 0;
+  margin-top: 12px; }
+
+/* line 37, ../../global/gforms/gforms.scss */
+.gform_wrapper form .gform_footer .gform_button {
+  margin-bottom: 0; }
+  /* line 40, ../../global/gforms/gforms.scss */
+  .gform_wrapper form .gform_footer .gform_button:hover {
+    cursor: pointer; }
+
+/* line 46, ../../global/gforms/gforms.scss */
+.gform_wrapper .gform_required_legend {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  font-family: "Jokker", sans-serif; }
+
+/*# sourceMappingURL=gforms.css.map */

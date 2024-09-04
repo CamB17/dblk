@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "service-single.css",
+	"sources": [
+		"../../../../singles/service/service-single.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG"
+}

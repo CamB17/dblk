@@ -1,0 +1,68 @@
+@import "sass-globals";
+
+.subpage_header {
+    padding: 0;
+    min-height: 550px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+
+    @include lt-md {
+        min-height: 50vh;
+    }
+    
+    &.hide_header_image {
+        min-height: 0;
+        max-height: 0;
+    }
+
+    .bg_image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        
+        img {
+            @include image-object-fit();
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 50%;
+        background: linear-gradient(to bottom, transparent, $black);
+        z-index: 1;
+    }
+
+    .row {
+        z-index: 2;
+        width: 100%;
+
+        .columns {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            position: relative;
+
+            h1 {
+                margin-bottom: -14px;
+                z-index: 3;
+                
+                @include lt-lg {
+                    margin-bottom: -1.2vw;
+                }
+
+                @include lt-md {
+                    margin-bottom: -7px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,636 @@
+{
+    "key": "group_5d4b5b9578a01",
+    "title": "FM: Content Section",
+    "fields": [
+        {
+            "key": "field_5d4b5bb841d4c",
+            "label": "Full Width Content",
+            "name": "full_width_content",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "required_message": "",
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1,
+            "style": ""
+        },
+        {
+            "key": "field_64399c14a55e1",
+            "label": "Background Color",
+            "name": "background_color",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "clone": [
+                "field_634db8a1562ab"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0,
+            "acfe_seamless_style": 0,
+            "acfe_clone_modal_close": 0,
+            "acfe_clone_modal_button": "",
+            "acfe_clone_modal_size": "large",
+            "required_message": "",
+            "acfe_clone_modal": 0
+        },
+        {
+            "key": "field_5d4b5bc041d4d",
+            "label": "Columns",
+            "name": "columns",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "You've already created a Section. Now, fill it up with content, column by column. If you just want one column, select Full Width. If you'd like 3 columns, for example, create 3 columns with 1\/3 width.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5d4b5bcb0e5fa": {
+                    "key": "layout_5d4b5bcb0e5fa",
+                    "name": "column",
+                    "label": "Column",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d4b5bde41d4e",
+                            "label": "Width",
+                            "name": "width",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "choices": {
+                                "medium-12": "Full Width",
+                                "medium-6": "1\/2 Width",
+                                "medium-4": "1\/3 Width",
+                                "medium-3": "1\/4 Width",
+                                "medium-8": "2\/3 Width",
+                                "medium-9": "3\/4 Width",
+                                "medium-1": "Spacer (1\/12)"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "min": "",
+                            "max": "",
+                            "allow_custom": 0,
+                            "placeholder": "",
+                            "search_placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "required_message": "",
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0
+                        },
+                        {
+                            "key": "field_5d4b5bef41d4f",
+                            "label": "Center Column",
+                            "name": "center_column",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "Tick this box if you would like, for example, one column at 50% width, centered.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "style": ""
+                        },
+                        {
+                            "key": "field_5d4b5c0641d50",
+                            "label": "Column Content",
+                            "name": "column_content",
+                            "aria-label": "",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "acfe_flexible_advanced": 0,
+                            "acfe_flexible_stylised_button": 0,
+                            "acfe_flexible_hide_empty_message": 0,
+                            "acfe_flexible_empty_message": "",
+                            "acfe_flexible_layouts_templates": 0,
+                            "acfe_flexible_layouts_previews": 0,
+                            "acfe_flexible_layouts_placeholder": 0,
+                            "acfe_flexible_layouts_thumbnails": 0,
+                            "acfe_flexible_layouts_settings": 0,
+                            "acfe_flexible_layouts_locations": 0,
+                            "acfe_flexible_async": [],
+                            "acfe_flexible_add_actions": [],
+                            "acfe_flexible_remove_button": [],
+                            "acfe_flexible_layouts_state": "user",
+                            "acfe_flexible_modal_edit": {
+                                "acfe_flexible_modal_edit_enabled": "0",
+                                "acfe_flexible_modal_edit_size": "large"
+                            },
+                            "acfe_flexible_modal": {
+                                "acfe_flexible_modal_enabled": "0",
+                                "acfe_flexible_modal_title": "",
+                                "acfe_flexible_modal_size": "full",
+                                "acfe_flexible_modal_col": "4",
+                                "acfe_flexible_modal_categories": "0"
+                            },
+                            "acfe_flexible_grid": {
+                                "acfe_flexible_grid_enabled": "0",
+                                "acfe_flexible_grid_align": "center",
+                                "acfe_flexible_grid_valign": "stretch",
+                                "acfe_flexible_grid_wrap": "0"
+                            },
+                            "acfe_flexible_grid_container": "",
+                            "layouts": {
+                                "layout_5d4b5c0aae42b": {
+                                    "key": "layout_5d4b5c0aae42b",
+                                    "name": "wysiwyg",
+                                    "label": "WYSIWYG",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_5d4b5c1541d51",
+                                            "label": "WYSIWYG Editor",
+                                            "name": "wysiwyg_editor",
+                                            "aria-label": "",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "delay": 0,
+                                            "acfe_wysiwyg_auto_init": 0,
+                                            "acfe_wysiwyg_height": 300,
+                                            "acfe_wysiwyg_min_height": 300,
+                                            "acfe_wysiwyg_max_height": "",
+                                            "acfe_wysiwyg_valid_elements": "",
+                                            "acfe_wysiwyg_custom_style": "",
+                                            "acfe_wysiwyg_disable_wp_style": 0,
+                                            "acfe_wysiwyg_autoresize": 0,
+                                            "acfe_wysiwyg_disable_resize": 0,
+                                            "acfe_wysiwyg_remove_path": 0,
+                                            "acfe_wysiwyg_menubar": 0,
+                                            "acfe_wysiwyg_transparent": 0,
+                                            "acfe_wysiwyg_merge_toolbar": 0,
+                                            "acfe_wysiwyg_custom_toolbar": 0,
+                                            "acfe_wysiwyg_toolbar_buttons": []
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": "",
+                                    "acfe_flexible_render_template": false,
+                                    "acfe_flexible_render_style": false,
+                                    "acfe_flexible_render_script": false,
+                                    "acfe_flexible_thumbnail": false,
+                                    "acfe_flexible_settings": false,
+                                    "acfe_flexible_settings_size": "medium",
+                                    "acfe_layout_locations": [],
+                                    "acfe_flexible_modal_edit_size": false,
+                                    "acfe_flexible_category": false,
+                                    "acfe_layout_col": "auto",
+                                    "acfe_layout_allowed_col": false
+                                },
+                                "layout_5d4b5c3e41d52": {
+                                    "key": "layout_5d4b5c3e41d52",
+                                    "name": "button",
+                                    "label": "Button",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_5d4b5c4841d53",
+                                            "label": "Buttons",
+                                            "name": "buttons",
+                                            "aria-label": "",
+                                            "type": "repeater",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "collapsed": "",
+                                            "min": 1,
+                                            "max": 10,
+                                            "layout": "",
+                                            "button_label": "Add Button",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_5d4b5c5041d54",
+                                                    "label": "Button",
+                                                    "name": "button",
+                                                    "aria-label": "",
+                                                    "type": "clone",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "required_message": "",
+                                                    "clone": [
+                                                        "group_5952c6ec81122"
+                                                    ],
+                                                    "display": "group",
+                                                    "layout": "block",
+                                                    "prefix_label": 0,
+                                                    "prefix_name": 0,
+                                                    "acfe_seamless_style": 0,
+                                                    "acfe_clone_modal": 0,
+                                                    "acfe_clone_modal_close": 0,
+                                                    "acfe_clone_modal_button": "",
+                                                    "acfe_clone_modal_size": "large",
+                                                    "parent_repeater": "field_5d4b5c4841d53"
+                                                }
+                                            ],
+                                            "rows_per_page": 20,
+                                            "acfe_repeater_stylised_button": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": "",
+                                    "acfe_flexible_render_template": false,
+                                    "acfe_flexible_render_style": false,
+                                    "acfe_flexible_render_script": false,
+                                    "acfe_flexible_thumbnail": false,
+                                    "acfe_flexible_settings": false,
+                                    "acfe_flexible_settings_size": "medium",
+                                    "acfe_layout_locations": [],
+                                    "acfe_flexible_modal_edit_size": false,
+                                    "acfe_flexible_category": false,
+                                    "acfe_layout_col": "auto",
+                                    "acfe_layout_allowed_col": false
+                                },
+                                "layout_63fd59caa67c0": {
+                                    "key": "layout_63fd59caa67c0",
+                                    "name": "video",
+                                    "label": "Video",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_63fd5ac4a67c3",
+                                            "label": "Message",
+                                            "name": "",
+                                            "aria-label": "",
+                                            "type": "message",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "required_message": "",
+                                            "message": "Add a video which will load in a pop up when clicked.",
+                                            "new_lines": "wpautop",
+                                            "esc_html": 0
+                                        },
+                                        {
+                                            "key": "field_63fd5a1aa67c1",
+                                            "label": "Cover Image",
+                                            "name": "cover_image",
+                                            "aria-label": "",
+                                            "type": "image",
+                                            "instructions": "Upload a cover image to display before the video is clicked. The image should be 16:9 ratio, for example...1200px by 675px (but if you aren't using it full width, you can upload a smaller one).",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "required_message": "",
+                                            "uploader": "",
+                                            "acfe_thumbnail": 0,
+                                            "return_format": "array",
+                                            "library": "all",
+                                            "min_width": "",
+                                            "min_height": "",
+                                            "min_size": "",
+                                            "max_width": "",
+                                            "max_height": "",
+                                            "max_size": "",
+                                            "mime_types": "",
+                                            "preview_size": "medium",
+                                            "upload_folder": ""
+                                        },
+                                        {
+                                            "key": "field_63fd5aaca67c2",
+                                            "label": "Embed Code",
+                                            "name": "embed_code",
+                                            "aria-label": "",
+                                            "type": "acfe_code_editor",
+                                            "instructions": "Paste the embed code here.",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "required_message": "",
+                                            "default_value": "",
+                                            "placeholder": "",
+                                            "mode": "text\/html",
+                                            "lines": 1,
+                                            "indent_unit": 4,
+                                            "maxlength": "",
+                                            "rows": 4,
+                                            "max_rows": "",
+                                            "return_entities": 0,
+                                            "return_format": []
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": "",
+                                    "acfe_flexible_render_template": false,
+                                    "acfe_flexible_render_style": false,
+                                    "acfe_flexible_render_script": false,
+                                    "acfe_flexible_thumbnail": false,
+                                    "acfe_flexible_settings": false,
+                                    "acfe_flexible_settings_size": "medium",
+                                    "acfe_layout_locations": [],
+                                    "acfe_flexible_modal_edit_size": false,
+                                    "acfe_flexible_category": false,
+                                    "acfe_layout_col": "auto",
+                                    "acfe_layout_allowed_col": false
+                                },
+                                "layout_5d4b5c7341d58": {
+                                    "key": "layout_5d4b5c7341d58",
+                                    "name": "accordion",
+                                    "label": "Accordion",
+                                    "display": "block",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_5d4b5c7841d59",
+                                            "label": "Row",
+                                            "name": "row",
+                                            "aria-label": "",
+                                            "type": "repeater",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "acfe_save_meta": 0,
+                                            "required_message": "",
+                                            "acfe_repeater_stylised_button": 0,
+                                            "layout": "block",
+                                            "min": 0,
+                                            "max": 0,
+                                            "collapsed": "",
+                                            "button_label": "Add Row",
+                                            "rows_per_page": 20,
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_5d4b5c7f41d5a",
+                                                    "label": "Title",
+                                                    "name": "title",
+                                                    "aria-label": "",
+                                                    "type": "text",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "placeholder": "",
+                                                    "prepend": "",
+                                                    "append": "",
+                                                    "maxlength": "",
+                                                    "parent_repeater": "field_5d4b5c7841d59"
+                                                },
+                                                {
+                                                    "key": "field_5d4b5c8441d5b",
+                                                    "label": "Content",
+                                                    "name": "content",
+                                                    "aria-label": "",
+                                                    "type": "wysiwyg",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "tabs": "all",
+                                                    "toolbar": "full",
+                                                    "media_upload": 1,
+                                                    "delay": 0,
+                                                    "acfe_wysiwyg_auto_init": 0,
+                                                    "acfe_wysiwyg_height": 300,
+                                                    "acfe_wysiwyg_min_height": 300,
+                                                    "acfe_wysiwyg_max_height": "",
+                                                    "acfe_wysiwyg_valid_elements": "",
+                                                    "acfe_wysiwyg_custom_style": "",
+                                                    "acfe_wysiwyg_disable_wp_style": 0,
+                                                    "acfe_wysiwyg_autoresize": 0,
+                                                    "acfe_wysiwyg_disable_resize": 0,
+                                                    "acfe_wysiwyg_remove_path": 0,
+                                                    "acfe_wysiwyg_menubar": 0,
+                                                    "acfe_wysiwyg_transparent": 0,
+                                                    "acfe_wysiwyg_merge_toolbar": 0,
+                                                    "acfe_wysiwyg_custom_toolbar": 0,
+                                                    "acfe_wysiwyg_toolbar_buttons": [],
+                                                    "parent_repeater": "field_5d4b5c7841d59"
+                                                },
+                                                {
+                                                    "key": "field_6439bedb28a0d",
+                                                    "label": "Button",
+                                                    "name": "button",
+                                                    "aria-label": "",
+                                                    "type": "clone",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "acfe_save_meta": 0,
+                                                    "required_message": "",
+                                                    "clone": [
+                                                        "field_5952c6ec878f6",
+                                                        "field_5952c6ec87a71",
+                                                        "field_5952c6ec87ae5",
+                                                        "field_5952c6ec87b59",
+                                                        "field_5952c6ec87bcd"
+                                                    ],
+                                                    "display": "seamless",
+                                                    "layout": "block",
+                                                    "prefix_label": 0,
+                                                    "prefix_name": 0,
+                                                    "acfe_seamless_style": 0,
+                                                    "acfe_clone_modal_close": 0,
+                                                    "acfe_clone_modal_button": "",
+                                                    "acfe_clone_modal_size": "large",
+                                                    "acfe_clone_modal": 0,
+                                                    "parent_repeater": "field_5d4b5c7841d59"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": "",
+                                    "acfe_flexible_render_template": false,
+                                    "acfe_flexible_render_style": false,
+                                    "acfe_flexible_render_script": false,
+                                    "acfe_flexible_thumbnail": false,
+                                    "acfe_flexible_settings": false,
+                                    "acfe_flexible_settings_size": "medium",
+                                    "acfe_layout_locations": [],
+                                    "acfe_flexible_modal_edit_size": false,
+                                    "acfe_flexible_category": false,
+                                    "acfe_layout_col": "auto",
+                                    "acfe_layout_allowed_col": false
+                                }
+                            },
+                            "required_message": "",
+                            "min": "",
+                            "max": "",
+                            "button_label": "Add Content Into This Column"
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": "medium",
+                    "acfe_layout_locations": [],
+                    "acfe_flexible_modal_edit_size": false,
+                    "acfe_flexible_category": false,
+                    "acfe_layout_col": "auto",
+                    "acfe_layout_allowed_col": false
+                }
+            },
+            "button_label": "Add A Column To This Section",
+            "min": "",
+            "max": "",
+            "acfe_flexible_advanced": false,
+            "acfe_flexible_stylised_button": false,
+            "acfe_flexible_hide_empty_message": false,
+            "acfe_flexible_empty_message": "",
+            "acfe_flexible_layouts_templates": false,
+            "acfe_flexible_layouts_previews": false,
+            "acfe_flexible_layouts_placeholder": false,
+            "acfe_flexible_layouts_thumbnails": false,
+            "acfe_flexible_layouts_settings": false,
+            "acfe_flexible_layouts_locations": false,
+            "acfe_flexible_async": [],
+            "acfe_flexible_add_actions": [],
+            "acfe_flexible_remove_button": [],
+            "acfe_flexible_layouts_state": false,
+            "acfe_flexible_modal_edit": {
+                "acfe_flexible_modal_edit_enabled": false,
+                "acfe_flexible_modal_edit_size": "large"
+            },
+            "acfe_flexible_modal": {
+                "acfe_flexible_modal_enabled": false,
+                "acfe_flexible_modal_title": false,
+                "acfe_flexible_modal_size": "full",
+                "acfe_flexible_modal_col": "4",
+                "acfe_flexible_modal_categories": false
+            },
+            "acfe_flexible_grid": {
+                "acfe_flexible_grid_enabled": false,
+                "acfe_flexible_grid_align": "center",
+                "acfe_flexible_grid_valign": "stretch",
+                "acfe_flexible_grid_wrap": false
+            },
+            "acfe_flexible_grid_container": false
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1695656022,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

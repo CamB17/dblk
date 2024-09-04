@@ -1,0 +1,119 @@
+{
+    "key": "group_648103b8b2a6d",
+    "title": "FM: Callout",
+    "fields": [
+        {
+            "key": "field_648103b9ecc38",
+            "label": "Background Color",
+            "name": "background_color",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "acf_color_selection",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "choices": {
+                "bg_dark bg_rust3": "<span class='bg_rust'><\/span>Rust",
+                "bg_dark bg_teal3": "<span class='bg_teal'><\/span>Teal",
+                "bg_dark bg_red3": "<span class='bg_red'><\/span>Red",
+                "bg_dark bg_marigold3": "<span class='bg_marigold'><\/span>Marigold"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "required_message": "",
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64810445ecc39",
+            "label": "Headline",
+            "name": "headline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "required_message": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64810456ecc3a",
+            "label": "Button",
+            "name": "button",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "clone": [
+                "field_5952c6ec878f6",
+                "field_5952c6ec87a71",
+                "field_5952c6ec87ae5",
+                "field_5952c6ec87b59",
+                "field_5952c6ec87bcd"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0,
+            "acfe_seamless_style": 0,
+            "acfe_clone_modal_close": 0,
+            "acfe_clone_modal_button": "",
+            "acfe_clone_modal_size": "large",
+            "required_message": "",
+            "acfe_clone_modal": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1695147538,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

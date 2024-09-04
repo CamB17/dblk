@@ -1,0 +1,147 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/split_section/fm_split_section.scss */
+.fm_split_section {
+  padding: 0px; }
+  /* line 7, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row .hold_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; }
+    @media only screen and (max-width: 640px) {
+      /* line 7, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row .hold_image {
+        padding-top: 67%; } }
+    /* line 17, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_image img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto; }
+    /* line 25, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_image.align_center img {
+      top: 0;
+      bottom: 0; }
+    /* line 32, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_image.align_top img {
+      top: 0; }
+    /* line 38, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_image.align_bottom img {
+      bottom: 0; }
+  /* line 44, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row .hold_content {
+    display: flex;
+    padding: 90px 15px 90px 38px;
+    position: relative; }
+    @media only screen and (max-width: 1024px) {
+      /* line 44, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row .hold_content {
+        padding: 70px 40px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 44, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row .hold_content {
+        padding: 40px 15px; } }
+    /* line 58, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_content .content {
+      align-self: center;
+      max-width: 545px; }
+      /* line 62, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row .hold_content .content .button {
+        margin-bottom: 0px; }
+    /* line 67, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row .hold_content .fm_button {
+      margin-bottom: 0; }
+  /* line 73, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row.content_first .hold_content {
+    justify-content: flex-end;
+    padding: 90px 38px 90px 15px; }
+    @media only screen and (max-width: 1024px) {
+      /* line 73, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row.content_first .hold_content {
+        padding: 70px 40px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 73, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row.content_first .hold_content {
+        padding: 40px 15px; } }
+  /* line 87, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row.content_first .hold_image {
+    order: 2; }
+  /* line 93, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row.video .hold_image {
+    cursor: pointer;
+    position: relative; }
+    /* line 97, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row.video .hold_image .play_video {
+      width: 100%;
+      height: 100%;
+      background-image: url(../../../../_images/icon_play.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      background-size: 120px;
+      background-position: center center;
+      background-color: transparent; }
+      @media only screen and (max-width: 1024px) {
+        /* line 97, ../../func_mods/split_section/fm_split_section.scss */
+        .fm_split_section .row.video .hold_image .play_video {
+          background-size: 90px; } }
+      @media only screen and (max-width: 640px) {
+        /* line 97, ../../func_mods/split_section/fm_split_section.scss */
+        .fm_split_section .row.video .hold_image .play_video {
+          background-size: 70px;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto; } }
+  /* line 123, ../../func_mods/split_section/fm_split_section.scss */
+  .fm_split_section .row.stretched {
+    max-width: none; }
+    /* line 126, ../../func_mods/split_section/fm_split_section.scss */
+    .fm_split_section .row.stretched .hold_image {
+      overflow: hidden;
+      height: auto;
+      padding-left: 0px;
+      padding-right: 0px; }
+      /* line 132, ../../func_mods/split_section/fm_split_section.scss */
+      .fm_split_section .row.stretched .hold_image img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        max-width: unset;
+        max-height: unset; }
+        /* line 139, ../../func_mods/split_section/fm_split_section.scss */
+        .fm_split_section .row.stretched .hold_image img.contain_image {
+          max-width: 100%;
+          max-height: 100%;
+          height: 100%;
+          width: auto;
+          min-width: 0;
+          min-height: 0; }
+          /* line 146, ../../func_mods/split_section/fm_split_section.scss */
+          .fm_split_section .row.stretched .hold_image img.contain_image.image_right_content_left {
+            left: 0;
+            right: auto; }
+          /* line 150, ../../func_mods/split_section/fm_split_section.scss */
+          .fm_split_section .row.stretched .hold_image img.contain_image.image_left_content_right {
+            right: 0;
+            left: auto; }
+
+/* line 167, ../../func_mods/split_section/fm_split_section.scss */
+.fm_split_section.object_fit_image .row.stretched .hold_image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: 50% 50%; }
+
+/*# sourceMappingURL=fm_split_section.css.map */

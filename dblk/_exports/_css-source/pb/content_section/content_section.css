@@ -1,0 +1,48 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 2, ../../page_builder/content_section/content_section.scss */
+.pb_content_section {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../page_builder/content_section/content_section.scss */
+    .pb_content_section {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../page_builder/content_section/content_section.scss */
+    .pb_content_section {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  /* line 7, ../../page_builder/content_section/content_section.scss */
+  .pb_content_section .row .columns ul:not(.accordion) .pb_content_section .row .columns ul:not(.tabs) .pb_content_section .row .columns ul:not(.gform_fields) {
+    list-style-type: disc;
+    margin-left: 18px; }
+    /* line 10, ../../page_builder/content_section/content_section.scss */
+    .pb_content_section .row .columns ul:not(.accordion) .pb_content_section .row .columns ul:not(.tabs) .pb_content_section .row .columns ul:not(.gform_fields) li {
+      padding-left: 9px;
+      margin-bottom: 8px; }
+  /* line 16, ../../page_builder/content_section/content_section.scss */
+  .pb_content_section .row .columns ol {
+    list-style-type: decimal;
+    margin-left: 18px; }
+    /* line 19, ../../page_builder/content_section/content_section.scss */
+    .pb_content_section .row .columns ol li {
+      padding-left: 9px;
+      margin-bottom: 8px; }
+  /* line 26, ../../page_builder/content_section/content_section.scss */
+  .pb_content_section .row .columns .accordion .accordion-item .accordion-title {
+    font-size: 1rem; }
+  /* line 29, ../../page_builder/content_section/content_section.scss */
+  .pb_content_section .row .columns .accordion .accordion-item .accordion-content {
+    color: #000000; }
+  /* line 36, ../../page_builder/content_section/content_section.scss */
+  .pb_content_section .row .columns .tabs .tabs-title a {
+    font-size: 1rem; }
+
+/*# sourceMappingURL=content_section.css.map */

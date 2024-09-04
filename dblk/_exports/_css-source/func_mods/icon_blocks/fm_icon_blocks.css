@@ -1,0 +1,20 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/icon_blocks/fm_icon_blocks.scss */
+.fm_icon_blocks .title {
+  margin-bottom: 40px; }
+
+/* line 12, ../../func_mods/icon_blocks/fm_icon_blocks.scss */
+.fm_icon_blocks .icons .content_icons {
+  text-align: center; }
+  /* line 14, ../../func_mods/icon_blocks/fm_icon_blocks.scss */
+  .fm_icon_blocks .icons .content_icons .fm_icon {
+    max-width: 200px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=fm_icon_blocks.css.map */

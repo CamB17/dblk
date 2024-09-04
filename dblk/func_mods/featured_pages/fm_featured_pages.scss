@@ -1,0 +1,207 @@
+@import "sass-globals";
+
+.fm_featured_pages {
+    position: relative;
+    overflow-x: clip;
+    overflow-y: hidden;
+    background-color: $tan;
+    padding: 60px 0;
+
+    @include lt-md {
+        padding: 40px 0;
+    }
+
+    .intro {
+        @include padding();
+        padding-top: 0;
+
+        h2 {
+            >span {
+                @include h4;
+                color: $marigold3;
+                font-size: 56px !important;
+                line-height: 55px !important;
+                display: inline;
+                text-transform: lowercase;
+
+                @include lt-lg {
+                    font-size: 40px !important;
+                    line-height: 44px !important;
+                }
+
+                @include lt-md {
+                    font-size: 30px;
+                    line-height: 34px;
+                }
+            }
+
+            font-size: 60px;
+            line-height: 64px;
+            font-weight: 400;
+
+            @include lt-lg {
+                font-size: 40px;
+                line-height: 44px;
+            }
+
+            @include lt-md {
+                font-size: 30px;
+                line-height: 34px;
+            }
+        }
+
+        p {
+            @include p_large();
+        }
+    }
+
+    .row {
+        position: relative;
+        z-index: 2;
+    }
+
+    .blob {
+        position: absolute;
+        z-index: 0;
+
+        &.orange {
+            bottom: 90px;
+        }
+
+        &.green {
+            bottom: 0;
+        }
+
+        left: 0;
+
+        @include lt-lg {
+            width: 100%;
+            max-width: 75%;
+        }
+
+        @include lt-md {
+            display: none;
+        }
+    }
+
+    // 4 breaks the grid in the design, but we still want a max width
+    .row-4 {
+        max-width: 100rem;
+    }
+
+    .featured_page_columns {
+        display: flex;
+    }
+
+    .featured_page {
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin-bottom: 40px;
+
+        @include gt-md() {
+            margin-bottom: 10px;
+        }
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+
+            h3,
+            .h3 {
+                text-decoration: underline;
+            }
+
+            .fm_button {
+                &:after {
+                    right: 10px;
+                }
+
+                &:before {
+                    background-color: $white;
+                }
+            }
+
+            .image {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+        .top_content {
+            flex-direction: column;
+            flex: 1 1 0;
+
+            h3 {
+                margin-bottom: $xs-spacing;
+            }
+
+            p {
+                margin-top: 40px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .bottom_content {
+            .fm_button {
+                margin-bottom: 0;
+            }
+        }
+
+        .image {
+            position: relative;
+            padding-top: 8 / 11 * 100%;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: 0.25s all;
+            }
+
+            svg {
+                position: absolute;
+                display: block;
+                z-index: 2;
+                display: block;
+
+            }
+        }
+
+        &--1 {
+            svg {
+                bottom: -24px;
+                left: 12px;
+            }
+        }
+
+        &--2 {
+            svg {
+                top: -24px;
+                right: 12px;
+            }
+        }
+
+        &--3 {
+            svg {
+                bottom: -24px;
+                left: 12px;
+            }
+        }
+
+        &--4 {
+            svg {
+                bottom: -24px;
+                right: 12px;
+            }
+        }
+    }
+}

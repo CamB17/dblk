@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="336px" viewBox="0 0 33 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Down Arrow</title>
+    <g id="Desktop-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Home-Page-R1" transform="translate(-104.000000, -629.000000)" stroke="#D18233" stroke-width="3">
+            <g id="Down-Arrow" transform="translate(106.500000, 630.500000)">
+                <line x1="179" y1="165" x2="-151" y2="165" id="Stroke-1" transform="translate(14.000000, 165.000000) rotate(-270.000000) translate(-14.000000, -165.000000) "></line>
+                <polyline id="Stroke-3" transform="translate(14.000000, 324.000000) rotate(-270.000000) translate(-14.000000, -324.000000) " points="6 338 22 324 6 310"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

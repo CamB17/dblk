@@ -1,0 +1,18 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 4, ../../func_mods/icon/fm_icon.scss */
+.fm_icon svg {
+  width: 100%;
+  height: 100%;
+  max-width: 102px;
+  max-height: 102px; }
+  /* line 11, ../../func_mods/icon/fm_icon.scss */
+  .fm_icon svg.marigold path, .fm_icon svg.primary path, .fm_icon svg.secondary path {
+    fill: #A86600; }
+
+/*# sourceMappingURL=fm_icon.css.map */

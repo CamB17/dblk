@@ -1,0 +1,28 @@
+
+.social_media{
+    a {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 20px;
+        transition: 0.25s ease all;
+
+        span {
+            display: none;
+        }
+
+        img {
+            height: 32px;
+            width: auto;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            opacity: 0.6;
+        }
+    }
+}

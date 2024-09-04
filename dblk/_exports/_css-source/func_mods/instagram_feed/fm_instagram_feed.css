@@ -1,0 +1,85 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+.fm_instagram_feed {
+  background-image: url(/wp-content/themes/jr3/_images/blobs/blob-bg-feed.svg) !important;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 170px; }
+  /* line 4, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+  .fm_instagram_feed .title {
+    margin-bottom: 30px; }
+    /* line 7, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+    .fm_instagram_feed .title .column {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      @media only screen and (max-width: 640px) {
+        /* line 7, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+        .fm_instagram_feed .title .column {
+          flex-direction: column;
+          align-items: flex-start; } }
+      /* line 17, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+      .fm_instagram_feed .title .column .h1 {
+        margin: 0 20px 0 0; }
+        @media only screen and (max-width: 640px) {
+          /* line 17, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+          .fm_instagram_feed .title .column .h1 {
+            margin: 0 0 20px; } }
+      /* line 25, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+      .fm_instagram_feed .title .column .handle {
+        margin-left: auto;
+        display: flex;
+        align-items: center; }
+        @media only screen and (max-width: 640px) {
+          /* line 25, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+          .fm_instagram_feed .title .column .handle {
+            margin-left: 0;
+            margin-right: auto; } }
+        /* line 35, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+        .fm_instagram_feed .title .column .handle img {
+          width: 32px;
+          height: 32px;
+          margin-right: 18px; }
+        /* line 41, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+        .fm_instagram_feed .title .column .handle a {
+          margin: 0;
+          text-decoration: none;
+          color: #000000; }
+          /* line 46, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+          .fm_instagram_feed .title .column .handle a:hover {
+            text-decoration: underline; }
+  /* line 64, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+  .fm_instagram_feed #sb_instagram .sb_instagram_header,
+  .fm_instagram_feed #sb_instagram .sbi_info_wrapper,
+  .fm_instagram_feed #sb_instagram .sbi_follow_btn {
+    display: none; }
+  /* line 70, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+  .fm_instagram_feed #sb_instagram .sbi_load_btn {
+    font-size: 21px !important;
+    letter-spacing: 0 !important;
+    line-height: 21px !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-family: "awesome_serif", sans-serif !important;
+    border: 1px solid #ffffff !important;
+    box-shadow: none !important;
+    padding: 12px !important;
+    border-radius: 4px !important;
+    transition: 0.25s all !important; }
+    /* line 83, ../../func_mods/instagram_feed/fm_instagram_feed.scss */
+    .fm_instagram_feed #sb_instagram .sbi_load_btn:hover {
+      cursor: pointer !important;
+      background-color: #ffffff !important;
+      color: #000000 !important;
+      border-color: #000000 !important; }
+
+/*# sourceMappingURL=fm_instagram_feed.css.map */

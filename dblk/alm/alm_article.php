@@ -1,0 +1,1 @@
+<? article_box(get_the_ID()); ?>

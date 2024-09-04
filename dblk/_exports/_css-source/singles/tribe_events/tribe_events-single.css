@@ -1,0 +1,147 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../singles/tribe_events/tribe_events-single.scss */
+.event_listing {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 3, ../../singles/tribe_events/tribe_events-single.scss */
+    .event_listing {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../singles/tribe_events/tribe_events-single.scss */
+    .event_listing {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  /* line 6, ../../singles/tribe_events/tribe_events-single.scss */
+  .event_listing .top_section {
+    border: 1px solid #81746E;
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px; }
+    @media only screen and (max-width: 800px) {
+      /* line 6, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section {
+        flex-wrap: wrap;
+        padding: 20px; }
+        /* line 19, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .title_cat,
+        .event_listing .top_section .time_loc {
+          width: 100% !important; }
+        /* line 24, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .title_cat {
+          margin-bottom: 30px; } }
+    /* line 29, ../../singles/tribe_events/tribe_events-single.scss */
+    .event_listing .top_section .title_cat {
+      width: 50%; }
+      /* line 32, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .title_cat .categories {
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap; }
+        /* line 39, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .title_cat .categories .cat {
+          margin: 10px 10px 0px 0;
+          font-size: 14px; }
+          /* line 43, ../../singles/tribe_events/tribe_events-single.scss */
+          .event_listing .top_section .title_cat .categories .cat img {
+            margin-right: 10px; }
+        /* line 48, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .title_cat .categories > span:last-of-type {
+          margin-right: 0; }
+    /* line 54, ../../singles/tribe_events/tribe_events-single.scss */
+    .event_listing .top_section .time_loc {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap; }
+      /* line 59, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .hold_me {
+        margin-top: 15px; }
+      /* line 63, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .time,
+      .event_listing .top_section .time_loc .location {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; }
+        @media only screen and (max-width: 480px) {
+          /* line 63, ../../singles/tribe_events/tribe_events-single.scss */
+          .event_listing .top_section .time_loc .time,
+          .event_listing .top_section .time_loc .location {
+            width: 100%; } }
+        /* line 75, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .time_loc .time h4,
+        .event_listing .top_section .time_loc .location h4 {
+          margin-bottom: 12px; }
+        /* line 79, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .time_loc .time .h6,
+        .event_listing .top_section .time_loc .location .h6 {
+          margin-bottom: 3px; }
+          @media only screen and (max-width: 480px) {
+            /* line 79, ../../singles/tribe_events/tribe_events-single.scss */
+            .event_listing .top_section .time_loc .time .h6,
+            .event_listing .top_section .time_loc .location .h6 {
+              display: flex;
+              justify-content: flex-start;
+              white-space: nowrap; } }
+        /* line 90, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .time_loc .time .address > a,
+        .event_listing .top_section .time_loc .location .address > a {
+          text-decoration: none; }
+          /* line 93, ../../singles/tribe_events/tribe_events-single.scss */
+          .event_listing .top_section .time_loc .time .address > a:hover,
+          .event_listing .top_section .time_loc .location .address > a:hover {
+            text-decoration: underline; }
+      /* line 101, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .time p {
+        margin-bottom: 46px; }
+        @media only screen and (max-width: 480px) {
+          /* line 101, ../../singles/tribe_events/tribe_events-single.scss */
+          .event_listing .top_section .time_loc .time p {
+            margin-bottom: 16px; } }
+      /* line 110, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .time.range_event p {
+        margin-bottom: 19px; }
+      @media only screen and (min-width: 640px) {
+        /* line 115, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .time_loc .time .fm_button.tertiary {
+          min-width: 193px; } }
+      /* line 121, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .time > a {
+        margin-bottom: 12px; }
+        /* line 124, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .top_section .time_loc .time > a:last-of-type {
+          margin-bottom: 0; }
+      /* line 131, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .top_section .time_loc .location p {
+        margin-bottom: 16px; }
+  /* line 139, ../../singles/tribe_events/tribe_events-single.scss */
+  .event_listing .bottom_section .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; }
+    @media only screen and (max-width: 640px) {
+      /* line 139, ../../singles/tribe_events/tribe_events-single.scss */
+      .event_listing .bottom_section .content {
+        margin: 0 auto;
+        flex-direction: column-reverse; }
+        /* line 148, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .bottom_section .content img {
+          margin-bottom: 20px; }
+        /* line 152, ../../singles/tribe_events/tribe_events-single.scss */
+        .event_listing .bottom_section .content .column {
+          padding: 0; } }
+
+/*# sourceMappingURL=tribe_events-single.css.map */

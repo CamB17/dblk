@@ -1,0 +1,187 @@
+@import "sass-globals";
+
+.fm_tenant_archive {
+
+    .intro {
+        margin-bottom: 80px;
+        .columns {
+
+            &.headline {
+                @include gt-md() {
+                    padding-right: $small-spacing;
+                }
+            }
+
+            &.description {
+                @include gt-sm {
+                    padding-top: 15px;
+                }
+            }
+
+        }
+
+        p {
+            @include p_large();
+            max-width: 590px;
+            margin-left: auto;
+
+            @include lt-lg {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .tenant_archive_posts {
+        background-color: $tan;
+        @include padding();
+
+        &.has-filters {
+            padding-top: 120px;
+            margin-top: -110px;
+        }
+    }
+
+    .filters_wrap {
+        background: $white;
+        border: 1px solid $greige3;
+        border-radius: 4px;
+        padding: $small-spacing $small-spacing 0 $small-spacing;
+    }
+
+
+    //Ajax Load More Styles
+    .alm-results-text {
+        @include h6();
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .alm-filters-container {
+        max-width: none;
+        margin-right: -0.9375rem;
+        margin-left: -0.9375rem;
+        display: flex;
+        flex-flow: row wrap;
+
+        .alm-filter--title {
+            h3 {
+                @include h5();
+            }
+        }
+
+        .alm-filters--controls {
+            padding-left: 15px;
+            padding-top: 10px;
+
+            @include lt-md {
+                padding-left: 10px;
+                padding-top: 0;
+            }
+        }
+
+        .alm-filter {
+            ul {
+                columns: 2;
+                column-gap: $small-spacing;
+
+                li {
+                    margin: 0 0 12px;
+                    break-inside: avoid-column;
+
+                    div.alm-filter--link {
+                        color: $black;
+                        line-height: 21px;
+                        font-size: 13px;
+
+                        &.active {
+                            &:before {
+                                border-color: $black;
+                                background-color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.atmosphere-filters {
+                ul {
+                    @include gt-md() {
+                        columns: 3;
+                    }
+                }
+            }
+        }
+
+        // Moved filters button to fm_button.scss so it's a more global style
+        // Needed to reused for calendar filter
+    }
+
+    .alm-layouts .alm-listing {
+        margin: 0 auto !important;
+    }
+
+    .tenant_archive {
+        margin: 0 auto;
+        max-width: 75rem;
+    }
+
+    .alm-load-more-btn {
+        //not needed since we're displaying all posts
+        display: none !important;
+    }
+    
+    .filter-title {
+        display: none;
+    }
+        
+    
+    // Mobile Filters
+    @include lt-md() {
+        
+        .filter-title {
+            display: block;
+        }
+        
+        .alm-filters-container {
+            .alm-filter--title h3 {
+                border: 1px solid $black;
+                border-radius: 4px;
+                padding: 14px 55px 15px 24px;
+                display: block;
+                position: relative;
+                
+                &:hover {
+                    cursor: pointer;
+                }
+                
+                &:after {
+                    content: '';
+                    display: inline-block;
+                    border-right: 1px solid $black;
+                    border-bottom: 1px solid $black;
+                    width: 10px; height: 10px;
+                    transform: rotate(-315deg);
+                    position: absolute;
+                    right: 32px;
+                    top: 18px;
+                }
+                
+                &.open {
+                    &:after {
+                       transform: rotate(225deg); 
+                    }
+                }
+            }
+            
+            .alm-filter--inner {
+                display: none;
+                
+                &.visible {
+                    display: block;
+                }
+                
+            }
+        }
+    }
+
+}

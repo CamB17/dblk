@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "additional_modules.css",
+	"sources": [
+		"../../../../page_builder/additional_modules/additional_modules.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG"
+}

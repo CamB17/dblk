@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="90px" viewBox="0 0 104 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 104 0 104 90 0 90"></polygon>
+    </defs>
+    <g id="Desktop-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-Builder:-Global" transform="translate(-68.000000, -1431.000000)">
+            <g id="Nav:-Hovers" transform="translate(0.000000, 1286.000000)">
+                <g id="Group-3" transform="translate(68.000000, 145.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M13.013186,45.8401176 C-1.53114509,57.3523529 -3.47789351,69.5441132 5.14896809,80.8653139 C16.6584309,95.9714427 42.7990476,89.8823229 63.8703523,80.2525202 C90.879196,67.9094151 109.65079,39.1613201 102.452794,18.5766844 C100.773931,13.7763941 97.1714429,8.01918609 92.6091058,5.1785273 C82.2998906,-1.23945121 62.8446226,-2.37213828 48.1266462,5.67704918 C42.9923263,8.48543271 38.7707356,12.2664355 35.7480836,16.7365586 C32.4571102,21.6040163 31.4401065,26.6481156 28.487698,31.5304025 C25.7198424,36.1078191 21.1788837,40.0091998 16.4276309,43.3108714 C15.2212751,44.1491558 14.0834177,44.9935463 13.013186,45.8401176" id="Fill-1" fill="#0B856F" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

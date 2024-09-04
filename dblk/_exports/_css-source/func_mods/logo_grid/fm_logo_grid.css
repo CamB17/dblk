@@ -1,0 +1,79 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+@media only screen and (max-width: 640px) {
+  /* line 4, ../../func_mods/logo_grid/fm_logo_grid.scss */
+  .fm_logo_grid .logo-grid {
+    display: flex;
+    flex-direction: column; } }
+
+/* line 11, ../../func_mods/logo_grid/fm_logo_grid.scss */
+.fm_logo_grid .logo-grid .lg-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/* line 17, ../../func_mods/logo_grid/fm_logo_grid.scss */
+.fm_logo_grid .logo-grid .logo-container {
+  display: flex;
+  justify-content: flex-end; }
+  @media only screen and (max-width: 1024px) {
+    /* line 17, ../../func_mods/logo_grid/fm_logo_grid.scss */
+    .fm_logo_grid .logo-grid .logo-container {
+      justify-content: flex-start; } }
+  @media only screen and (max-width: 700px) {
+    /* line 17, ../../func_mods/logo_grid/fm_logo_grid.scss */
+    .fm_logo_grid .logo-grid .logo-container {
+      flex-direction: column; } }
+  /* line 29, ../../func_mods/logo_grid/fm_logo_grid.scss */
+  .fm_logo_grid .logo-grid .logo-container .logo {
+    padding: 15px;
+    width: 100%;
+    max-width: 248px;
+    max-height: 248px;
+    height: 100%;
+    display: flex;
+    background-color: #F2EDEB;
+    justify-content: center;
+    align-items: center;
+    min-height: 248px;
+    margin-right: 12px; }
+    @media only screen and (max-width: 700px) {
+      /* line 29, ../../func_mods/logo_grid/fm_logo_grid.scss */
+      .fm_logo_grid .logo-grid .logo-container .logo {
+        margin-right: 0;
+        margin-bottom: 12px;
+        width: 100%;
+        max-width: 100%;
+        min-height: 150px; } }
+    /* line 50, ../../func_mods/logo_grid/fm_logo_grid.scss */
+    .fm_logo_grid .logo-grid .logo-container .logo img {
+      max-width: 200px;
+      max-height: 110px;
+      width: auto;
+      height: auto;
+      transition: 0.25s all; }
+  /* line 60, ../../func_mods/logo_grid/fm_logo_grid.scss */
+  .fm_logo_grid .logo-grid .logo-container > a:hover img {
+    transform: scale(1.03); }
+  /* line 66, ../../func_mods/logo_grid/fm_logo_grid.scss */
+  .fm_logo_grid .logo-grid .logo-container > :last-child {
+    margin-right: 0; }
+    @media only screen and (max-width: 640px) {
+      /* line 66, ../../func_mods/logo_grid/fm_logo_grid.scss */
+      .fm_logo_grid .logo-grid .logo-container > :last-child {
+        margin-bottom: 12px; } }
+
+/* line 75, ../../func_mods/logo_grid/fm_logo_grid.scss */
+.fm_logo_grid .logo-grid h2 {
+  margin: 0; }
+  @media only screen and (max-width: 1024px) {
+    /* line 75, ../../func_mods/logo_grid/fm_logo_grid.scss */
+    .fm_logo_grid .logo-grid h2 {
+      margin-bottom: 20px; } }
+
+/*# sourceMappingURL=fm_logo_grid.css.map */

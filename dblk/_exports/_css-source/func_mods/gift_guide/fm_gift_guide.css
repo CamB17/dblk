@@ -1,0 +1,74 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/gift_guide/fm_gift_guide.scss */
+.fm_gift_guide {
+  background-color: #F2EDEB; }
+  /* line 6, ../../func_mods/gift_guide/fm_gift_guide.scss */
+  .fm_gift_guide .gift_column {
+    display: flex;
+    margin-bottom: 30px; }
+  /* line 11, ../../func_mods/gift_guide/fm_gift_guide.scss */
+  .fm_gift_guide .gift_item {
+    position: relative;
+    border: 1px solid #a0928c;
+    border-radius: 4px;
+    transition: 0.25s all;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    position: relative; }
+    /* line 21, ../../func_mods/gift_guide/fm_gift_guide.scss */
+    .fm_gift_guide .gift_item .image {
+      position: relative;
+      padding-top: 72.7272727273%;
+      overflow: hidden; }
+      /* line 26, ../../func_mods/gift_guide/fm_gift_guide.scss */
+      .fm_gift_guide .gift_item .image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.25s all;
+        border-radius: 4px 4px 0 0; }
+    /* line 38, ../../func_mods/gift_guide/fm_gift_guide.scss */
+    .fm_gift_guide .gift_item .top_content {
+      padding: 30px 30px 15px 30px;
+      flex-direction: column;
+      flex: 1 1 0; }
+    /* line 44, ../../func_mods/gift_guide/fm_gift_guide.scss */
+    .fm_gift_guide .gift_item .bottom_content {
+      padding: 0 30px 30px 30px; }
+    /* line 48, ../../func_mods/gift_guide/fm_gift_guide.scss */
+    .fm_gift_guide .gift_item .meta {
+      display: flex;
+      justify-content: space-between;
+      font-family: "awesome_serif", sans-serif;
+      margin-bottom: 15px; }
+      /* line 54, ../../func_mods/gift_guide/fm_gift_guide.scss */
+      .fm_gift_guide .gift_item .meta .meta_item {
+        width: auto;
+        margin-bottom: 15px; }
+        /* line 58, ../../func_mods/gift_guide/fm_gift_guide.scss */
+        .fm_gift_guide .gift_item .meta .meta_item.meta_price {
+          padding-left: 8px; }
+    /* line 65, ../../func_mods/gift_guide/fm_gift_guide.scss */
+    .fm_gift_guide .gift_item:hover, .fm_gift_guide .gift_item:focus {
+      background-color: #ffffff; }
+      /* line 70, ../../func_mods/gift_guide/fm_gift_guide.scss */
+      .fm_gift_guide .gift_item:hover .image img, .fm_gift_guide .gift_item:focus .image img {
+        transform: scale(1.1); }
+      /* line 76, ../../func_mods/gift_guide/fm_gift_guide.scss */
+      .fm_gift_guide .gift_item:hover .fm_button:after, .fm_gift_guide .gift_item:focus .fm_button:after {
+        right: 8px; }
+      /* line 80, ../../func_mods/gift_guide/fm_gift_guide.scss */
+      .fm_gift_guide .gift_item:hover .fm_button:before, .fm_gift_guide .gift_item:focus .fm_button:before {
+        width: 28px; }
+
+/*# sourceMappingURL=fm_gift_guide.css.map */

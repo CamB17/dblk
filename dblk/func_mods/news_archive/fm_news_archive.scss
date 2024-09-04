@@ -1,0 +1,115 @@
+@import "sass-globals";
+
+.fm_news_archive {
+    
+    .tenant_archive_posts{
+        background-color: $tan;
+        @include padding();
+        
+        &.has-filters{
+            padding-top: 120px;
+            margin-top: -110px;
+        }
+    }
+    
+    .filters_wrap{
+        background: $white;
+        border: 1px solid $greige3;
+        border-radius: 4px;
+        padding: $small-spacing $small-spacing 0 $small-spacing;
+    }
+    
+    
+    //Ajax Load More Styles
+    .alm-results-text{
+        @include h6();
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .alm-filters-container {
+        max-width: none;
+        margin-right: -0.9375rem;
+        margin-left: -0.9375rem;
+        display: flex;
+        flex-flow: row wrap;
+        
+        .alm-filter--title {
+            h3{
+                @include h5();
+            }
+        }
+        .alm-filter{
+            ul{
+                columns: 2;
+                column-gap: $small-spacing;
+                li{
+                    margin: 0 0 12px;
+                    break-inside: avoid-column;
+                    div.alm-filter--link{
+                        color: $black;
+                        &.active{
+                            &:before{
+                                border-color: $black;
+                                background-color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+            &.atmosphere-filters{
+                ul{
+                    @include gt-md(){
+                        columns: 3;
+                    }
+                }
+            }
+        }
+        
+        .alm-filters--reset-button{
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2.5px;
+            line-height: 21px;
+            color: #ffffff;
+            background-color: #000000;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            padding: 14px 60px 15px 24px;
+            margin-top: $small-spacing;
+            margin-bottom: 0;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.25s all;
+            text-transform: uppercase;
+            position: relative;
+            font-family: $headline_aw_serif;
+            height: auto;
+            &:after {
+                content: "\00d7";
+                right: 18px;
+                position: absolute;
+                font-size: 40px;
+                font-weight: 300;
+                
+            }
+            &:hover{
+                color: $black;
+                border-color: $black;
+            }
+        }
+    }
+    
+    .alm-layouts .alm-listing{
+        margin: 0 auto !important;
+    }
+    .news_archive{
+        margin: 0 auto;
+        max-width: 75rem;
+    }
+    .alm-load-more-btn {
+        //not needed since we're displaying all posts
+       display: none !important;
+    }
+    
+}

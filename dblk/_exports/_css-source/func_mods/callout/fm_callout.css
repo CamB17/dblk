@@ -1,0 +1,47 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/callout/fm_callout.scss */
+.fm_callout {
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden; }
+  /* line 9, ../../func_mods/callout/fm_callout.scss */
+  .fm_callout .callout img {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 100%; }
+  /* line 18, ../../func_mods/callout/fm_callout.scss */
+  .fm_callout .callout .columns {
+    z-index: 1; }
+  /* line 22, ../../func_mods/callout/fm_callout.scss */
+  .fm_callout .callout h3 {
+    margin: 0; }
+    @media only screen and (max-width: 640px) {
+      /* line 22, ../../func_mods/callout/fm_callout.scss */
+      .fm_callout .callout h3 {
+        margin-bottom: 20px; } }
+  /* line 31, ../../func_mods/callout/fm_callout.scss */
+  .fm_callout .callout .button_hold {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    /* line 36, ../../func_mods/callout/fm_callout.scss */
+    .fm_callout .callout .button_hold .fm_button {
+      margin: 0; }
+    @media only screen and (max-width: 640px) {
+      /* line 31, ../../func_mods/callout/fm_callout.scss */
+      .fm_callout .callout .button_hold {
+        justify-content: flex-start; } }
+  /* line 48, ../../func_mods/callout/fm_callout.scss */
+  .fm_callout .bg_rust3 .fm_button.secondary {
+    background-color: #ba5d00; }
+
+/*# sourceMappingURL=fm_callout.css.map */

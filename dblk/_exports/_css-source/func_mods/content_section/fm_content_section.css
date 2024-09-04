@@ -1,0 +1,108 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+@media only screen and (min-width: 1024px) {
+  /* line 7, ../../func_mods/content_section/fm_content_section.scss */
+  .fm_content_section .column_content.medium-12 .wysiwyg {
+    padding-right: 25%; } }
+
+/* line 14, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .column_content.medium-12.small-centered .wysiwyg {
+  padding: 0; }
+
+/* line 20, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .column_content ul,
+.fm_content_section .column_content ol {
+  padding-left: 20px; }
+
+/* line 25, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .column_content .slideshow {
+  margin: 40px 0px; }
+
+/* line 39, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body input[type="text"],
+.fm_content_section .gform_wrapper .gform_body input[type='email'] {
+  height: 50px; }
+
+/* line 44, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body input[type="text"],
+.fm_content_section .gform_wrapper .gform_body input[type='email'],
+.fm_content_section .gform_wrapper .gform_body textarea {
+  border: 1px solid #83998A;
+  border-radius: 4px;
+  padding: 12px 16px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+  /* line 54, ../../func_mods/content_section/fm_content_section.scss */
+  .fm_content_section .gform_wrapper .gform_body input[type="text"]:focus-visible, .fm_content_section .gform_wrapper .gform_body input[type="text"]:active, .fm_content_section .gform_wrapper .gform_body input[type="text"]:focus,
+  .fm_content_section .gform_wrapper .gform_body input[type='email']:focus-visible,
+  .fm_content_section .gform_wrapper .gform_body input[type='email']:active,
+  .fm_content_section .gform_wrapper .gform_body input[type='email']:focus,
+  .fm_content_section .gform_wrapper .gform_body textarea:focus-visible,
+  .fm_content_section .gform_wrapper .gform_body textarea:active,
+  .fm_content_section .gform_wrapper .gform_body textarea:focus {
+    outline-color: #000000; }
+
+/* line 61, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #83998A;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 6px);
+  background-position-y: 12px;
+  padding: 12px 16px !important;
+  padding-right: 2rem !important; }
+  /* line 76, ../../func_mods/content_section/fm_content_section.scss */
+  .fm_content_section .gform_wrapper .gform_body select:focus-visible, .fm_content_section .gform_wrapper .gform_body select:active, .fm_content_section .gform_wrapper .gform_body select:focus {
+    outline-color: #000000; }
+
+/* line 83, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body .gfield--type-captcha {
+  margin: 5px 0 15px; }
+
+/* line 87, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body .gfield_radio {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  /* line 92, ../../func_mods/content_section/fm_content_section.scss */
+  .fm_content_section .gform_wrapper .gform_body .gfield_radio .gchoice {
+    width: 25%;
+    margin-bottom: 12px; }
+
+/* line 98, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section .gform_wrapper .gform_body .gfield_label {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 21px; }
+
+/* line 107, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section table,
+.fm_content_section tbody,
+.fm_content_section tbody tr:nth-child(even) {
+  background: inherit;
+  border: none; }
+
+/* line 114, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section thead {
+  background-color: #81746E;
+  color: #ffffff; }
+
+/* line 119, ../../func_mods/content_section/fm_content_section.scss */
+.fm_content_section tbody tr:nth-child(even) {
+  border-top: 1px solid #a0928c;
+  border-bottom: 1px solid #a0928c; }
+
+/*# sourceMappingURL=fm_content_section.css.map */

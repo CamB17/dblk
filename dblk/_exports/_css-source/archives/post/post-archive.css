@@ -1,0 +1,70 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 2, ../../archives/post/post-archive.scss */
+.blog-archive {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../archives/post/post-archive.scss */
+    .blog-archive {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../archives/post/post-archive.scss */
+    .blog-archive {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  /* line 4, ../../archives/post/post-archive.scss */
+  .blog-archive .blog-post {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #f1f1f1; }
+    /* line 8, ../../archives/post/post-archive.scss */
+    .blog-archive .blog-post:first-of-type {
+      padding-top: 0px; }
+    /* line 12, ../../archives/post/post-archive.scss */
+    .blog-archive .blog-post .image .image_holder {
+      min-height: 300px;
+      background-size: cover;
+      background-position: center center;
+      cursor: pointer; }
+    /* line 19, ../../archives/post/post-archive.scss */
+    .blog-archive .blog-post .info {
+      display: flex;
+      align-items: center; }
+      /* line 22, ../../archives/post/post-archive.scss */
+      .blog-archive .blog-post .info .hold-me {
+        padding-left: 30px; }
+        /* line 24, ../../archives/post/post-archive.scss */
+        .blog-archive .blog-post .info .hold-me .button {
+          margin: 0px; }
+  /* line 30, ../../archives/post/post-archive.scss */
+  .blog-archive .pagination {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    margin: 0 auto; }
+    /* line 36, ../../archives/post/post-archive.scss */
+    .blog-archive .pagination ul {
+      display: inline-block; }
+      /* line 38, ../../archives/post/post-archive.scss */
+      .blog-archive .pagination ul li {
+        font-size: 20px;
+        margin-right: 0.0625rem;
+        border-radius: 0;
+        font-weight: bold; }
+        /* line 43, ../../archives/post/post-archive.scss */
+        .blog-archive .pagination ul li a {
+          line-height: 25px;
+          padding: 6px 14px; }
+        /* line 48, ../../archives/post/post-archive.scss */
+        .blog-archive .pagination ul li span.current {
+          background-color: #3381c6;
+          padding: 6px 14px; }
+
+/*# sourceMappingURL=post-archive.css.map */

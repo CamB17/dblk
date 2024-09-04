@@ -1,0 +1,147 @@
+{
+    "key": "group_606f5fdee783f",
+    "title": "FM: Ajax Archive",
+    "fields": [
+        {
+            "key": "field_606f6005004e5",
+            "label": "Post Type",
+            "name": "post_type",
+            "type": "post_object",
+            "instructions": "Please select which post type to display.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "post_type": [
+                "post-types"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "return_format": "id",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "save_custom": 0,
+            "save_post_type": "post",
+            "save_post_status": "publish",
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0",
+                "acfe_bidirectional_related": ""
+            },
+            "acfe_field_group_condition": 0,
+            "ui": 1
+        },
+        {
+            "key": "field_606f602b004e6",
+            "label": "Taxonomies",
+            "name": "taxonomies",
+            "type": "acfe_taxonomies",
+            "instructions": "Please select which Taxonomies to be able to filter by.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "taxonomy": "",
+            "field_type": "checkbox",
+            "min": "",
+            "max": "",
+            "default_value": [],
+            "return_format": "name",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "other_choice": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "allow_custom": 0,
+            "acfe_field_group_condition": 0,
+            "choices": []
+        },
+        {
+            "key": "field_606f6063004e7",
+            "label": "Search?",
+            "name": "search",
+            "type": "true_false",
+            "instructions": "Should this archive have a search?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_6089de26c0564",
+            "label": "Posts Per Page",
+            "name": "posts_per_page",
+            "type": "number",
+            "instructions": "How many posts should be visible when the page first loads?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "acfe_field_group_condition": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1663091499,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

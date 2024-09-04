@@ -1,0 +1,110 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/alert_bar/fm_alert_bar.scss */
+.fm_alert_bar {
+  text-align: center;
+  padding: 14px 52px;
+  position: relative; }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../func_mods/alert_bar/fm_alert_bar.scss */
+    .fm_alert_bar {
+      padding: 12px 45px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 13, ../../func_mods/alert_bar/fm_alert_bar.scss */
+    .fm_alert_bar .row .column {
+      padding: 0; } }
+  /* line 18, ../../func_mods/alert_bar/fm_alert_bar.scss */
+  .fm_alert_bar .row .column h1,
+  .fm_alert_bar .row .column h2,
+  .fm_alert_bar .row .column h3,
+  .fm_alert_bar .row .column h4,
+  .fm_alert_bar .row .column h5,
+  .fm_alert_bar .row .column h6 {
+    margin-bottom: 0 !important; }
+  /* line 27, ../../func_mods/alert_bar/fm_alert_bar.scss */
+  .fm_alert_bar .row .column p {
+    margin-bottom: 0px; }
+    @media only screen and (max-width: 640px) {
+      /* line 27, ../../func_mods/alert_bar/fm_alert_bar.scss */
+      .fm_alert_bar .row .column p {
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 21px; } }
+  /* line 35, ../../func_mods/alert_bar/fm_alert_bar.scss */
+  .fm_alert_bar .row .column p,
+  .fm_alert_bar .row .column a {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+    font-family: "Jokker", sans-serif;
+    display: inline-block;
+    margin: 0; }
+    /* line 154, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.white,
+    .fm_alert_bar .row .column a.white {
+      color: #ffffff; }
+    /* line 158, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.greige,
+    .fm_alert_bar .row .column a.greige {
+      color: #81746E; }
+    /* line 162, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.burnt_umber,
+    .fm_alert_bar .row .column a.burnt_umber {
+      color: #ba5d00; }
+    /* line 166, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.tan,
+    .fm_alert_bar .row .column a.tan {
+      color: #F2EDEB; }
+    /* line 170, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.cotton_candy,
+    .fm_alert_bar .row .column a.cotton_candy {
+      color: #F0AE84; }
+    /* line 174, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.mint,
+    .fm_alert_bar .row .column a.mint {
+      color: #C4DBCB; }
+    /* line 178, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.marigold,
+    .fm_alert_bar .row .column a.marigold {
+      color: #9b5b00; }
+    /* line 182, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.red,
+    .fm_alert_bar .row .column a.red {
+      color: #DF2F30; }
+    /* line 186, ../scss/_mixins.scss */
+    .fm_alert_bar .row .column p.teal,
+    .fm_alert_bar .row .column a.teal {
+      color: #0B856F; }
+  /* line 44, ../../func_mods/alert_bar/fm_alert_bar.scss */
+  .fm_alert_bar #alert_bar_close {
+    max-width: 52px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 100%;
+    transition: opacity .25s; }
+    @media only screen and (max-width: 640px) {
+      /* line 44, ../../func_mods/alert_bar/fm_alert_bar.scss */
+      .fm_alert_bar #alert_bar_close {
+        max-width: 45px;
+        top: 0; } }
+    /* line 58, ../../func_mods/alert_bar/fm_alert_bar.scss */
+    .fm_alert_bar #alert_bar_close:hover {
+      opacity: 45%; }
+    /* line 62, ../../func_mods/alert_bar/fm_alert_bar.scss */
+    .fm_alert_bar #alert_bar_close svg {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.25); }
+
+/*# sourceMappingURL=fm_alert_bar.css.map */

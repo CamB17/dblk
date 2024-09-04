@@ -1,0 +1,35 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 6, ../../func_mods/testimonials/fm_testimonials.scss */
+.fm_testimonials .testimonials_hold .slick-arrow.slick-next {
+  right: -65px; }
+
+/* line 10, ../../func_mods/testimonials/fm_testimonials.scss */
+.fm_testimonials .testimonials_hold .slick-arrow.slick-prev {
+  left: -65px; }
+
+/* line 15, ../../func_mods/testimonials/fm_testimonials.scss */
+.fm_testimonials .testimonials_hold .testimonial {
+  display: flex; }
+  /* line 18, ../../func_mods/testimonials/fm_testimonials.scss */
+  .fm_testimonials .testimonials_hold .testimonial .photo {
+    flex: 0 0 33%; }
+  /* line 22, ../../func_mods/testimonials/fm_testimonials.scss */
+  .fm_testimonials .testimonials_hold .testimonial .content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; }
+    /* line 28, ../../func_mods/testimonials/fm_testimonials.scss */
+    .fm_testimonials .testimonials_hold .testimonial .content .quote_hold {
+      flex: 0 0 100%; }
+    /* line 32, ../../func_mods/testimonials/fm_testimonials.scss */
+    .fm_testimonials .testimonials_hold .testimonial .content .meta_hold {
+      flex: 0 0 100%; }
+
+/*# sourceMappingURL=fm_testimonials.css.map */

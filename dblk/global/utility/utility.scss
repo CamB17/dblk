@@ -1,0 +1,425 @@
+@import "sass-globals";
+
+.white-bg {
+  background-color: $white !important;
+}
+
+.light-gray-bg {
+  background-color: $light-gray !important;
+}
+
+.dark-gray-bg {
+  background-color: $dark-gray !important;
+  color: $white;
+}
+
+.none-padding-top {
+  padding-top: 0px !important;
+}
+
+.small-padding-top {
+  padding-top: $small-spacing !important;
+}
+
+.medium-padding-top {
+  padding-top: $medium-spacing !important;
+}
+
+.large-padding-top {
+  padding-top: $large-spacing !important;
+}
+
+.custom-padding-top {
+  padding-top: unset !important;
+}
+
+.none-padding-bottom {
+  padding-bottom: 0px !important;
+}
+
+.small-padding-bottom {
+  padding-bottom: $small-spacing !important;
+}
+
+.medium-padding-bottom {
+  padding-bottom: $medium-spacing !important;
+}
+
+.large-padding-bottom {
+  padding-bottom: $large-spacing !important;
+}
+
+.custom-padding-bottom {
+  padding-bottom: unset !important;
+}
+
+.none-margin-top {
+  margin-top: 0px !important;
+}
+
+.small-margin-top {
+  margin-top: $small-spacing !important;
+}
+
+.medium-margin-top {
+  margin-top: $medium-spacing !important;
+}
+
+.large-margin-top {
+  margin-top: $large-spacing !important;
+}
+
+.custom-margin-top {
+  margin-top: unset !important;
+}
+
+.none-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+.small-margin-bottom {
+  margin-bottom: $small-spacing !important;
+}
+
+.medium-margin-bottom {
+  margin-bottom: $medium-spacing !important;
+}
+
+.large-margin-bottom {
+  margin-bottom: $large-spacing !important;
+}
+
+.custom-margin-bottom {
+  margin-bottom: unset !important;
+}
+
+#wp-admin-bar-new_draft {
+  display: none;
+}
+
+//this exists in wp-admin.scss as well
+#wpadminbar img.avatar {
+  display: none !important;
+}
+
+#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li {
+  margin-left: 0px;
+}
+
+.small-centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bg_light {}
+
+.bg_dark {
+  color: $white;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  blockquote,
+  label,
+  a,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  div {
+    color: $white;
+  }
+
+  &.top-footer {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h6,
+    p,
+    li,
+    blockquote,
+    label,
+    a,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h6,
+    div {
+      color: $white !important;
+    }
+  }
+
+  blockquote {
+    border-color: $white;
+  }
+
+  .fm_accordion {
+    .accordion {
+      &__active {
+        .accordion__intro {
+          div {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .fm_button {
+    &.primary {
+      border-color: $white;
+      background-color: $white;
+      color: $black;
+
+      &:after {
+        background-image: url(../../../../_images/icon_button_arrow_black.svg);
+
+        &:hover {
+          background-color: $white;
+        }
+      }
+    }
+
+    &.secondary {
+      border: 1px solid $white;
+      color: $white;
+
+      &:after {
+        background-image: url(../../../../_images/icon_button_arrow_white.svg);
+      }
+    }
+
+    &.tertiary {
+      color: $white;
+
+      &:after {
+        background-image: url(../../../../_images/icon_button_arrow_white.svg);
+      }
+
+      &:before {
+        background-color: $white;
+      }
+
+      &:hover {
+        &:before {
+          background-color: $white;
+        }
+      }
+    }
+  }
+}
+
+.bg_black {
+  background-color: $black;
+
+  .fm_accordion {
+    .accordion {
+      border-color: $white;
+    }
+  }
+
+  .fm_button {
+    &.primary {
+      color: $black;
+
+      &:hover {
+        color: $black;
+      }
+    }
+
+    &.secondary {
+
+      &:before {
+        background-color: $black;
+      }
+    }
+
+    &.tertiary {
+      &:before {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.bg_teal {
+  background-color: $teal;
+}
+
+.bg_teal3 {
+  background-color: $teal3;
+}
+
+.bg_greige {
+  background-color: $greige;
+}
+
+.bg_burnt_umber {
+  background-color: $burnt_umber;
+}
+
+.bg_tan {
+  background-color: $tan;
+}
+
+.bg_cotton_candy {
+  background-color: $cotton_candy;
+}
+
+.bg_mint {
+  background-color: $mint;
+}
+
+.bg_rust {
+  background-color: $rust;
+}
+
+.bg_rust3 {
+  background-color: $rust3;
+}
+
+.bg_burnt_orange {
+  background-color: $burnt_orange;
+}
+
+.bg_red {
+  background-color: $red;
+}
+
+.bg_red3 {
+  background-color: $red3;
+}
+
+.bg_marigold {
+  background-color: $marigold;
+}
+
+.bg_marigold3 {
+  background-color: $marigold3;
+}
+
+.bg_dark_orange {
+  background-color: $dark_orange;
+}
+
+
+
+// Blob Callout + Events
+.blob_callout {
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    width: 100%;
+    background-color: rgba($black, 0.125);
+    -webkit-mask-image: url(../../../../_images/blobs/blob-bg-callout.svg);
+    mask-image: url(../../../../_images/blobs/blob-bg-callout.svg);
+    -webkit-mask-size: auto 100%;
+    mask-size: auto 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center left;
+    mask-position: center left;
+    top: 0;
+    right: -75%;
+    z-index: 1;
+    pointer-events: none;
+
+    @include gt-sm() {
+      -webkit-mask-position: center right;
+      mask-position: center right;
+      right: -15%;
+    }
+
+    @include gt-md() {
+      right: 0;
+    }
+  }
+
+  >* {
+    position: relative;
+    z-index: 2;
+  }
+
+  &.bg_rust {
+    &:after {
+      background-color: $burnt_umber;
+    }
+  }
+}
+
+
+
+/****************************************
+Accessibility Helpers
+*****************************************/
+.sr-only-text,
+.sr-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+    left: -99999px;
+}
+
+.skip-to {
+    z-index: 99999999;
+    display: block;
+    color: $white;
+    background-color: $black;
+    border: 2px solid $white;
+    padding: 5px 10px;
+    position: absolute;
+    left: -99999px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: default;
+    &:focus,
+    &:active {
+        color: $white;
+        visibility: visible;
+        text-decoration: underline;
+        left: 12px;
+    }
+    &.skip-to-main {
+        top: 12px;
+    }
+    &.skip-to-top {
+        bottom: 4px;
+        &:focus,
+        &:active {
+            left: auto;
+            right: 12px;
+        }
+    }
+}
+
+.accessible-card-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}

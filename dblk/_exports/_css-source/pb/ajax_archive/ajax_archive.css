@@ -1,0 +1,70 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../page_builder/ajax_archive/ajax_archive.scss */
+.pb_ajax_archive .alm-filters {
+  display: flex; }
+  @media only screen and (max-width: 1024px) {
+    /* line 3, ../../page_builder/ajax_archive/ajax_archive.scss */
+    .pb_ajax_archive .alm-filters {
+      flex-wrap: wrap; }
+      /* line 7, ../../page_builder/ajax_archive/ajax_archive.scss */
+      .pb_ajax_archive .alm-filters .alm-filter {
+        margin-bottom: 15px; } }
+  /* line 11, ../../page_builder/ajax_archive/ajax_archive.scss */
+  .pb_ajax_archive .alm-filters.filters-default {
+    margin-bottom: 100px; }
+    @media only screen and (max-width: 640px) {
+      /* line 11, ../../page_builder/ajax_archive/ajax_archive.scss */
+      .pb_ajax_archive .alm-filters.filters-default {
+        margin-bottom: 50px; } }
+  /* line 18, ../../page_builder/ajax_archive/ajax_archive.scss */
+  .pb_ajax_archive .alm-filters > div.alm-filter {
+    margin-right: 12px;
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 640px) {
+      /* line 18, ../../page_builder/ajax_archive/ajax_archive.scss */
+      .pb_ajax_archive .alm-filters > div.alm-filter {
+        width: 100%;
+        margin-right: 0px; } }
+    /* line 26, ../../page_builder/ajax_archive/ajax_archive.scss */
+    .pb_ajax_archive .alm-filters > div.alm-filter .alm-filter--inner {
+      padding: 0px; }
+      @media only screen and (max-width: 640px) {
+        /* line 26, ../../page_builder/ajax_archive/ajax_archive.scss */
+        .pb_ajax_archive .alm-filters > div.alm-filter .alm-filter--inner {
+          width: 100%; } }
+  /* line 33, ../../page_builder/ajax_archive/ajax_archive.scss */
+  .pb_ajax_archive .alm-filters > div.alm-filters--controls {
+    margin: 0px; }
+    /* line 36, ../../page_builder/ajax_archive/ajax_archive.scss */
+    .pb_ajax_archive .alm-filters > div.alm-filters--controls .alm-filters--submit button[type=button] {
+      display: none;
+      height: 50px;
+      border-radius: 0px;
+      background-color: #3381c6;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 800;
+      padding: 0px 15px;
+      font-family: "Jokker", sans-serif; }
+  /* line 51, ../../page_builder/ajax_archive/ajax_archive.scss */
+  .pb_ajax_archive .alm-filters .alm-filter--text-wrap input[type=text] {
+    width: 180px;
+    border-radius: 0px; }
+
+/* line 56, ../../page_builder/ajax_archive/ajax_archive.scss */
+.pb_ajax_archive .alm-reveal {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-flow: row wrap; }
+
+/*# sourceMappingURL=ajax_archive.css.map */

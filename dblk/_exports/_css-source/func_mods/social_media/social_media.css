@@ -1,0 +1,22 @@
+/* line 3, ../../func_mods/social_media/social_media.scss */
+.social_media a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.25s ease all; }
+  /* line 9, ../../func_mods/social_media/social_media.scss */
+  .social_media a span {
+    display: none; }
+  /* line 13, ../../func_mods/social_media/social_media.scss */
+  .social_media a img {
+    height: 32px;
+    width: auto; }
+  /* line 18, ../../func_mods/social_media/social_media.scss */
+  .social_media a:last-of-type {
+    margin-right: 0; }
+  /* line 22, ../../func_mods/social_media/social_media.scss */
+  .social_media a:hover, .social_media a:focus {
+    text-decoration: none;
+    opacity: 0.6; }
+
+/*# sourceMappingURL=social_media.css.map */

@@ -1,0 +1,82 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/subpage_header/fm_subpage_header.scss */
+.subpage_header {
+  padding: 0;
+  min-height: 550px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex; }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../func_mods/subpage_header/fm_subpage_header.scss */
+    .subpage_header {
+      min-height: 50vh; } }
+  /* line 16, ../../func_mods/subpage_header/fm_subpage_header.scss */
+  .subpage_header.hide_header_image {
+    min-height: 0;
+    max-height: 0; }
+  /* line 21, ../../func_mods/subpage_header/fm_subpage_header.scss */
+  .subpage_header .bg_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+    /* line 29, ../../func_mods/subpage_header/fm_subpage_header.scss */
+    .subpage_header .bg_image img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      object-position: 50% 50%;
+      transform: none;
+      z-index: 1; }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* line 29, ../../func_mods/subpage_header/fm_subpage_header.scss */
+        .subpage_header .bg_image img {
+          height: auto; } }
+  /* line 34, ../../func_mods/subpage_header/fm_subpage_header.scss */
+  .subpage_header .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, #000000);
+    z-index: 1; }
+  /* line 44, ../../func_mods/subpage_header/fm_subpage_header.scss */
+  .subpage_header .row {
+    z-index: 2;
+    width: 100%; }
+    /* line 48, ../../func_mods/subpage_header/fm_subpage_header.scss */
+    .subpage_header .row .columns {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      position: relative; }
+      /* line 54, ../../func_mods/subpage_header/fm_subpage_header.scss */
+      .subpage_header .row .columns h1 {
+        margin-bottom: -14px;
+        z-index: 3; }
+        @media only screen and (max-width: 1024px) {
+          /* line 54, ../../func_mods/subpage_header/fm_subpage_header.scss */
+          .subpage_header .row .columns h1 {
+            margin-bottom: -1.2vw; } }
+        @media only screen and (max-width: 640px) {
+          /* line 54, ../../func_mods/subpage_header/fm_subpage_header.scss */
+          .subpage_header .row .columns h1 {
+            margin-bottom: -7px; } }
+
+/*# sourceMappingURL=fm_subpage_header.css.map */

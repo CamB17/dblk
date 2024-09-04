@@ -1,0 +1,68 @@
+@import "sass-globals";
+
+.fm_alert_bar {
+    text-align: center;
+    padding: 14px 52px;
+    position: relative;
+
+    @include lt-md {
+        padding: 12px 45px;
+    }
+
+    .row {
+        .column {
+            @include lt-md {
+                padding: 0;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin-bottom: 0 !important;
+            }
+
+            p {
+                margin-bottom: 0px;
+
+                @include lt-md {
+                    @include p_small;
+                }
+            }
+
+            p,
+            a {
+                @include h6;
+                display: inline-block;
+                margin: 0;
+            }
+        }
+    }
+
+    #alert_bar_close {
+        max-width: 52px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 100%;
+        transition: opacity .25s;
+
+        @include lt-md {
+            max-width: 45px;
+            top: 0;
+        }
+
+        &:hover {
+            opacity: 45%;
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.25);
+        }
+    }
+}

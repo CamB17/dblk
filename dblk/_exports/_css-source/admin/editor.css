@@ -1,0 +1,406 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+@import url("//use.typekit.net/tyu1cyx.css");
+/* line 4, ../scss/admin/editor.scss */
+h1,
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 90px;
+  line-height: 90px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font-family: "Jokker", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500; }
+  /* line 154, ../scss/_mixins.scss */
+  h1.white,
+  .h1.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h1.greige,
+  .h1.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h1.burnt_umber,
+  .h1.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h1.tan,
+  .h1.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h1.cotton_candy,
+  .h1.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h1.mint,
+  .h1.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h1.marigold,
+  .h1.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h1.red,
+  .h1.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h1.teal,
+  .h1.teal {
+    color: #0B856F; }
+  @media only screen and (max-width: 1440px) {
+    /* line 4, ../scss/admin/editor.scss */
+    h1,
+    .h1 {
+      font-size: 6.25vw;
+      line-height: 6.666666667vw; } }
+  @media only screen and (max-width: 640px) {
+    /* line 4, ../scss/admin/editor.scss */
+    h1,
+    .h1 {
+      font-size: 42px;
+      line-height: 42px; } }
+
+/* line 9, ../scss/admin/editor.scss */
+h2,
+.h2 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: bold;
+  font-family: "awesome_serif_xt", sans-serif; }
+  /* line 154, ../scss/_mixins.scss */
+  h2.white,
+  .h2.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h2.greige,
+  .h2.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h2.burnt_umber,
+  .h2.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h2.tan,
+  .h2.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h2.cotton_candy,
+  .h2.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h2.mint,
+  .h2.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h2.marigold,
+  .h2.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h2.red,
+  .h2.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h2.teal,
+  .h2.teal {
+    color: #0B856F; }
+  @media only screen and (max-width: 1440px) {
+    /* line 9, ../scss/admin/editor.scss */
+    h2,
+    .h2 {
+      font-size: 3.47vw;
+      line-height: 4.03vw; } }
+  @media only screen and (max-width: 1024px) {
+    /* line 9, ../scss/admin/editor.scss */
+    h2,
+    .h2 {
+      font-size: 38px;
+      line-height: 42px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 9, ../scss/admin/editor.scss */
+    h2,
+    .h2 {
+      font-size: 36px;
+      line-height: 37px; } }
+
+/* line 14, ../scss/admin/editor.scss */
+h3,
+.h3 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-family: "awesome_serif", sans-serif; }
+  /* line 154, ../scss/_mixins.scss */
+  h3.white,
+  .h3.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h3.greige,
+  .h3.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h3.burnt_umber,
+  .h3.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h3.tan,
+  .h3.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h3.cotton_candy,
+  .h3.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h3.mint,
+  .h3.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h3.marigold,
+  .h3.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h3.red,
+  .h3.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h3.teal,
+  .h3.teal {
+    color: #0B856F; }
+  @media only screen and (max-width: 1440px) {
+    /* line 14, ../scss/admin/editor.scss */
+    h3,
+    .h3 {
+      font-size: 2.22222222vw;
+      line-height: 2.777777778vw; } }
+  @media only screen and (max-width: 1024px) {
+    /* line 14, ../scss/admin/editor.scss */
+    h3,
+    .h3 {
+      font-size: 26px;
+      line-height: 30px; } }
+
+/* line 19, ../scss/admin/editor.scss */
+h4,
+.h4 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "San Clemente", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0; }
+  /* line 154, ../scss/_mixins.scss */
+  h4.white,
+  .h4.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h4.greige,
+  .h4.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h4.burnt_umber,
+  .h4.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h4.tan,
+  .h4.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h4.cotton_candy,
+  .h4.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h4.mint,
+  .h4.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h4.marigold,
+  .h4.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h4.red,
+  .h4.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h4.teal,
+  .h4.teal {
+    color: #0B856F; }
+  @media only screen and (max-width: 1440px) {
+    /* line 19, ../scss/admin/editor.scss */
+    h4,
+    .h4 {
+      font-size: 2.083333333vw;
+      line-height: 2.222222222vw; } }
+  @media only screen and (max-width: 1024px) {
+    /* line 19, ../scss/admin/editor.scss */
+    h4,
+    .h4 {
+      font-size: 23px;
+      line-height: 28px; } }
+
+/* line 24, ../scss/admin/editor.scss */
+h5,
+.h5 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-family: "Jokker", sans-serif;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+  /* line 154, ../scss/_mixins.scss */
+  h5.white,
+  .h5.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h5.greige,
+  .h5.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h5.burnt_umber,
+  .h5.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h5.tan,
+  .h5.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h5.cotton_candy,
+  .h5.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h5.mint,
+  .h5.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h5.marigold,
+  .h5.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h5.red,
+  .h5.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h5.teal,
+  .h5.teal {
+    color: #0B856F; }
+  @media only screen and (max-width: 640px) {
+    /* line 24, ../scss/admin/editor.scss */
+    h5,
+    .h5 {
+      font-size: 18px;
+      line-height: 22px; } }
+
+/* line 29, ../scss/admin/editor.scss */
+h6,
+.h6 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  font-family: "Jokker", sans-serif; }
+  /* line 154, ../scss/_mixins.scss */
+  h6.white,
+  .h6.white {
+    color: #ffffff; }
+  /* line 158, ../scss/_mixins.scss */
+  h6.greige,
+  .h6.greige {
+    color: #81746E; }
+  /* line 162, ../scss/_mixins.scss */
+  h6.burnt_umber,
+  .h6.burnt_umber {
+    color: #ba5d00; }
+  /* line 166, ../scss/_mixins.scss */
+  h6.tan,
+  .h6.tan {
+    color: #F2EDEB; }
+  /* line 170, ../scss/_mixins.scss */
+  h6.cotton_candy,
+  .h6.cotton_candy {
+    color: #F0AE84; }
+  /* line 174, ../scss/_mixins.scss */
+  h6.mint,
+  .h6.mint {
+    color: #C4DBCB; }
+  /* line 178, ../scss/_mixins.scss */
+  h6.marigold,
+  .h6.marigold {
+    color: #9b5b00; }
+  /* line 182, ../scss/_mixins.scss */
+  h6.red,
+  .h6.red {
+    color: #DF2F30; }
+  /* line 186, ../scss/_mixins.scss */
+  h6.teal,
+  .h6.teal {
+    color: #0B856F; }
+
+/* line 34, ../scss/admin/editor.scss */
+a {
+  color: #000000; }
+
+/* line 38, ../scss/admin/editor.scss */
+li {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  font-family: "Jokker", sans-serif;
+  margin-top: 0; }
+  /* line 41, ../scss/admin/editor.scss */
+  li span.list_large {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px; }
+
+/* line 47, ../scss/admin/editor.scss */
+p {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  font-family: "Jokker", sans-serif;
+  margin-top: 0; }
+  /* line 50, ../scss/admin/editor.scss */
+  p.large {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px; }
+  /* line 54, ../scss/admin/editor.scss */
+  p.small {
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 21px; }
+  /* line 58, ../scss/admin/editor.scss */
+  p.legal {
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: .08px; }
+  /* line 62, ../scss/admin/editor.scss */
+  p a {
+    text-decoration: underline;
+    color: inherit; }
+    /* line 66, ../scss/admin/editor.scss */
+    p a:hover {
+      text-decoration: none; }
+
+/*# sourceMappingURL=editor.css.map */

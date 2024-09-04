@@ -1,0 +1,138 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/tenant_archive/tenant_tile.scss */
+.tenant-tile-wrap {
+  margin-bottom: 30px; }
+
+/* line 7, ../../func_mods/tenant_archive/tenant_tile.scss */
+.tenant-tile {
+  position: relative;
+  border: 1px solid #a0928c;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  transition: 0.25s ease all;
+  width: 100%; }
+  @media only screen and (min-width: 1024px) {
+    /* line 7, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile {
+      height: 100%; } }
+  /* line 21, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile:hover, .tenant-tile:focus {
+    background-color: #ffffff; }
+    /* line 26, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile:hover .fm_button:after, .tenant-tile:focus .fm_button:after {
+      right: 8px; }
+    /* line 30, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile:hover .fm_button:before, .tenant-tile:focus .fm_button:before {
+      width: 28px; }
+  /* line 36, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile .image {
+    position: relative;
+    overflow: hidden;
+    padding-top: 70%;
+    width: 100%;
+    background-color: #a0928c; }
+    /* line 43, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile .image img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: 0 auto;
+      object-fit: cover;
+      object-position: center center;
+      height: 100%;
+      width: 100%; }
+  /* line 57, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile .inner {
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    align-self: normal;
+    align-items: flex-start;
+    margin-bottom: 30px; }
+  /* line 67, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile .content {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px; }
+    /* line 72, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile .content p {
+      margin-bottom: 30px; }
+    /* line 76, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile .content .h3 {
+      margin-bottom: 10px; }
+  /* line 81, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile .hours {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    /* line 86, ../../func_mods/tenant_archive/tenant_tile.scss */
+    .tenant-tile .hours li {
+      list-style: none;
+      margin-bottom: 5px;
+      display: flex;
+      flex-flow: row wrap; }
+      /* line 92, ../../func_mods/tenant_archive/tenant_tile.scss */
+      .tenant-tile .hours li span {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        line-height: 21px;
+        font-family: "Jokker", sans-serif;
+        display: inline;
+        margin-bottom: 0;
+        flex: 1 1 60%; }
+        /* line 154, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.white {
+          color: #ffffff; }
+        /* line 158, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.greige {
+          color: #81746E; }
+        /* line 162, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.burnt_umber {
+          color: #ba5d00; }
+        /* line 166, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.tan {
+          color: #F2EDEB; }
+        /* line 170, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.cotton_candy {
+          color: #F0AE84; }
+        /* line 174, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.mint {
+          color: #C4DBCB; }
+        /* line 178, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.marigold {
+          color: #9b5b00; }
+        /* line 182, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.red {
+          color: #DF2F30; }
+        /* line 186, ../scss/_mixins.scss */
+        .tenant-tile .hours li span.teal {
+          color: #0B856F; }
+        /* line 98, ../../func_mods/tenant_archive/tenant_tile.scss */
+        .tenant-tile .hours li span.day {
+          max-width: 160px; }
+        /* line 102, ../../func_mods/tenant_archive/tenant_tile.scss */
+        .tenant-tile .hours li span.time {
+          font-weight: 400;
+          flex: 1 1 40%;
+          text-align: right; }
+  /* line 111, ../../func_mods/tenant_archive/tenant_tile.scss */
+  .tenant-tile .fm_button {
+    position: absolute;
+    bottom: 10px; }
+
+/*# sourceMappingURL=tenant_tile.css.map */

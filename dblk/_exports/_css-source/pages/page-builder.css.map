@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "page-builder.css",
+	"sources": [
+		"../../../pages/page-builder.scss",
+		"../../../_engine/grunt/sass-globals.scss",
+		"../../../_engine/scss/_variables.scss",
+		"../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG"
+}

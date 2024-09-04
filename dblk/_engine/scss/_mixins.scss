@@ -1,0 +1,427 @@
+$small: 0;
+$medium: 640px;
+$large: 1024px;
+$xlarge: 1200px;
+$xxlarge: 1440px;
+$small-y: 43em !default;
+$large-y: 53em !default;
+
+@mixin gt-xl {
+    @media only screen and (min-width: $xxlarge) {
+        @content;
+    }
+}
+
+@mixin gt-lg {
+    @media only screen and (min-width: $xlarge) {
+        @content;
+    }
+}
+
+@mixin gt-md {
+    @media only screen and (min-width: $large) {
+        @content;
+    }
+}
+
+@mixin gt-sm {
+    @media only screen and (min-width: $medium) {
+        @content;
+    }
+}
+
+@mixin lt-xxlg {
+    @media only screen and (max-width: $xxlarge) {
+        @content;
+    }
+}
+
+@mixin lt-xlg {
+    @media only screen and (max-width: $xlarge) {
+        @content;
+    }
+}
+
+@mixin lt-lg {
+    @media only screen and (max-width: $large) {
+        @content;
+    }
+}
+
+@mixin lt-md {
+    @media only screen and (max-width: $medium) {
+        @content;
+    }
+}
+
+@mixin only-md {
+    @media only screen and (max-width: $large) and (min-width: $medium) {
+        @content;
+    }
+}
+
+@mixin only-lg {
+    @media only screen and (max-width: $xlarge) and (min-width: $large) {
+        @content;
+    }
+}
+
+@mixin lt-custom($lt_custom) {
+    @media only screen and (max-width: $lt_custom) {
+        @content;
+    }
+}
+
+@mixin gt-custom($gt__custom) {
+    @media only screen and (min-width: $gt__custom) {
+        @content;
+    }
+}
+
+@mixin vert-sm {
+    @media only screen and (min-width: $medium) and (max-height: $small-y) {
+        @content;
+    }
+}
+
+@mixin vert-lg {
+    @media only screen and (min-width: $medium) and (min-height: $large-y) {
+        @content;
+    }
+}
+
+@mixin padding() {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @include lt-lg() {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @include lt-md() {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@mixin margin() {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    @include lt-lg() {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    @include lt-md() {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@mixin p {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 27px;
+    font-family: $sans;
+    margin-top: 0;
+}
+
+@mixin p_large {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+@mixin p_small {
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+@mixin p_legal {
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: .08px;
+}
+
+@mixin h {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+
+    &.white {
+        color: $white;
+    }
+
+    &.greige {
+        color: $greige;
+    }
+
+    &.burnt_umber {
+        color: $burnt_umber;
+    }
+
+    &.tan {
+        color: $tan;
+    }
+
+    &.cotton_candy {
+        color: $cotton_candy;
+    }
+
+    &.mint {
+        color: $mint;
+    }
+
+    &.marigold {
+        color: $marigold3;
+    }
+
+    &.red {
+        color: $red;
+    }
+
+    &.teal {
+        color: $teal;
+    }
+}
+
+@mixin h1 {
+    @include h;
+    font-size: 90px;
+    line-height: 90px;
+
+    @include lt-xxlg {
+        font-size: 6.25vw;
+        line-height: 6.666666667vw;
+    }
+
+    @include lt-md {
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-family: $headline_jokker;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@mixin h2 {
+    @include h;
+    font-size: 50px;
+    line-height: 58px;
+
+    @include lt-xxlg {
+        font-size: 3.47vw;
+        line-height: 4.03vw;
+    }
+
+    @include lt-lg {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    @include lt-md {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+    font-weight: bold;
+    font-family: $headline_aw_serif_tall;
+}
+
+@mixin h3 {
+    @include h;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+
+    @include lt-xxlg {
+        font-size: 2.22222222vw;
+        line-height: 2.777777778vw;
+    }
+
+    @include lt-lg {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    margin-bottom: 24px;
+    font-family: $headline_aw_serif;
+
+}
+
+
+@mixin h4 {
+    @include h;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: $headline_clemente;
+    font-weight: 500;
+
+    @include lt-xxlg {
+        font-size: 2.083333333vw;
+        line-height: 2.222222222vw;
+    }
+
+    @include lt-lg {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    letter-spacing: 0;
+}
+
+@mixin h5 {
+    @include h;
+    font-family: $headline_jokker;
+    font-size: 21px;
+    line-height: 24px;
+
+    @include lt-md {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@mixin h6 {
+    @include h;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+    font-family: $headline_jokker;
+}
+
+
+
+
+/**
+Blob Hovers
+**/
+@mixin blob_hover($height: 90px, $color: $teal, $blob_number: 1, $width: 100px, $left: -30px) {
+    position: relative;
+
+    &:after {
+        content: '';
+        opacity: 0;
+        transform: scale(1.15);
+        transform-origin: top left;
+        position: absolute;
+        z-index: 0;
+        left: $left;
+        top: -45px;
+        display: block;
+        height: $height;
+        width: $width;
+        background-color: $color;
+        -webkit-mask-image: url(../../../../_images/blobs/blob-hover-#{$blob_number}.svg);
+        mask-image: url(../../../../_images/blobs/blob-hover-#{$blob_number}.svg);
+        -webkit-mask-size: auto $height;
+        mask-size: auto $height;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-position: top left;
+        mask-position: top left;
+        max-height: 94px;
+        visibility: hidden;
+    }
+
+    &:hover,
+    &:focus {
+        &:after {
+            filter: grayscale(0%);
+            opacity: 1;
+            transition: 0.35s ease all;
+            display: block;
+            height: $height;
+            width: $width;
+            z-index: 1;
+            visibility: visible;
+        }
+    }
+
+    @include lt-lg {
+        &:after {
+            display: none!important;
+        }
+    }
+}
+
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+@mixin found_script($fade: 1, $opacity: 0.12, $overflow: hidden, $position: absolute) {
+    .found_script_wrap {
+        overflow: $overflow;
+        position: $position;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        opacity: $fade;
+        transition: 1.5s ease opacity;
+
+        .found_script {
+            pointer-events: none;
+            z-index: 0;
+            position: $position;
+            right: -15px;
+            bottom: 40px;
+            width: 75vw;
+            max-width: 850px;
+            height: auto;
+            opacity: $opacity;
+
+            @include gt-sm() {
+                width: 55vw;
+                right: -50px;
+                bottom: -25px;
+            }
+
+            @include gt-md() {
+                right: -70px;
+                bottom: -52px;
+            }
+
+            @include gt-lg() {
+                right: -92px;
+                bottom: -72px;
+            }
+        }
+    }
+}
+
+
+
+// Image Object Fit Cover
+@mixin image-object-fit(){
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transform: none;
+  z-index: 1;
+  
+  /// IE hack
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+      height: auto;
+  }
+}

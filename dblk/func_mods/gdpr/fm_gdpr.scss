@@ -1,0 +1,55 @@
+@import "sass-globals";
+
+#moove_gdpr_cookie_info_bar {
+    &.moove-gdpr-dark-scheme {
+        background-color: $black !important;
+        border-top: 0px solid #fff !important;
+    }
+
+    .moove-gdpr-info-bar-container {
+        width: 100%;
+
+        .moove-gdpr-info-bar-content {
+            justify-content: space-between;
+
+            p {
+                font-size: 13px !important;
+                letter-spacing: 0 !important;
+                line-height: 21px !important;
+                font-family: $sans;
+                font-weight: normal !important;
+
+                button {
+                    color: $white !important;
+                    text-decoration: underline !important;
+
+                    &:hover {
+                        cursor: pointer !important;
+                        color: $white !important;
+                        text-decoration: none !important;
+                    }
+                }
+            }
+
+            .mgbutton {
+                font-size: 21px !important;
+                letter-spacing: 0 !important;
+                line-height: 21px !important;
+                background-color: $black !important;
+                color: $white !important;
+                font-family: $headline_aw_serif !important;
+                border: 1px solid $white !important;
+                box-shadow: none !important;
+                padding: 12px !important;
+                border-radius: 4px !important;
+                transition: 0.25s all !important;
+
+                &:hover {
+                    cursor: pointer !important;
+                    background-color: $white !important;
+                    color: $black !important;
+                }
+            }
+        }
+    }
+}

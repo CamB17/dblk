@@ -1,0 +1,54 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 4, ../../func_mods/gdpr/fm_gdpr.scss */
+#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme {
+  background-color: #000000 !important;
+  border-top: 0px solid #fff !important; }
+
+/* line 9, ../../func_mods/gdpr/fm_gdpr.scss */
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+  width: 100%; }
+  /* line 12, ../../func_mods/gdpr/fm_gdpr.scss */
+  #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content {
+    justify-content: space-between; }
+    /* line 15, ../../func_mods/gdpr/fm_gdpr.scss */
+    #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p {
+      font-size: 13px !important;
+      letter-spacing: 0 !important;
+      line-height: 21px !important;
+      font-family: "Jokker", sans-serif;
+      font-weight: normal !important; }
+      /* line 22, ../../func_mods/gdpr/fm_gdpr.scss */
+      #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p button {
+        color: #ffffff !important;
+        text-decoration: underline !important; }
+        /* line 26, ../../func_mods/gdpr/fm_gdpr.scss */
+        #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p button:hover {
+          cursor: pointer !important;
+          color: #ffffff !important;
+          text-decoration: none !important; }
+    /* line 34, ../../func_mods/gdpr/fm_gdpr.scss */
+    #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .mgbutton {
+      font-size: 21px !important;
+      letter-spacing: 0 !important;
+      line-height: 21px !important;
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      font-family: "awesome_serif", sans-serif !important;
+      border: 1px solid #ffffff !important;
+      box-shadow: none !important;
+      padding: 12px !important;
+      border-radius: 4px !important;
+      transition: 0.25s all !important; }
+      /* line 47, ../../func_mods/gdpr/fm_gdpr.scss */
+      #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .mgbutton:hover {
+        cursor: pointer !important;
+        background-color: #ffffff !important;
+        color: #000000 !important; }
+
+/*# sourceMappingURL=fm_gdpr.css.map */

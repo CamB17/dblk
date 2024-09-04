@@ -1,0 +1,20 @@
+@import "sass-globals";
+.fm_icon_blocks {
+    .title {
+        margin-bottom: 40px;
+        
+        .column {
+            h1 {}
+            p {}
+        }
+    }
+    .icons {
+        .content_icons {
+            text-align: center;
+            .fm_icon {
+                max-width:200px;
+                margin:0 auto;
+            }
+        }
+    }
+}

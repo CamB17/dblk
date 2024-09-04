@@ -1,0 +1,81 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 2, ../../archives/default/default-archive.scss */
+.default_archive {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../archives/default/default-archive.scss */
+    .default_archive {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../archives/default/default-archive.scss */
+    .default_archive {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  /* line 4, ../../archives/default/default-archive.scss */
+  .default_archive .post {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    /* line 7, ../../archives/default/default-archive.scss */
+    .default_archive .post:first-of-type {
+      padding-top: 0px; }
+    /* line 11, ../../archives/default/default-archive.scss */
+    .default_archive .post .image .image_holder {
+      padding-top: 62%;
+      background-size: cover;
+      background-position: center center;
+      cursor: pointer; }
+    /* line 18, ../../archives/default/default-archive.scss */
+    .default_archive .post .info {
+      display: flex;
+      align-items: center; }
+      /* line 21, ../../archives/default/default-archive.scss */
+      .default_archive .post .info .hold-me {
+        padding-left: 30px; }
+        /* line 23, ../../archives/default/default-archive.scss */
+        .default_archive .post .info .hold-me .button {
+          margin: 0px; }
+
+/* line 31, ../../archives/default/default-archive.scss */
+.pagination {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  margin: 0 auto; }
+  /* line 37, ../../archives/default/default-archive.scss */
+  .pagination ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    /* line 41, ../../archives/default/default-archive.scss */
+    .pagination ul li {
+      font-size: 20px;
+      margin-right: 0.0625rem;
+      border-radius: 0;
+      font-weight: bold;
+      margin: 0px 2px; }
+      /* line 47, ../../archives/default/default-archive.scss */
+      .pagination ul li a {
+        line-height: 25px;
+        padding: 6px 14px;
+        text-decoration: none;
+        background-color: #f1f1f1;
+        color: #000000; }
+        /* line 53, ../../archives/default/default-archive.scss */
+        .pagination ul li a:hover {
+          background-color: #3381c6;
+          color: #ffffff; }
+      /* line 59, ../../archives/default/default-archive.scss */
+      .pagination ul li span.current {
+        background-color: #3381c6;
+        padding: 6px 14px;
+        color: #ffffff; }
+
+/*# sourceMappingURL=default-archive.css.map */

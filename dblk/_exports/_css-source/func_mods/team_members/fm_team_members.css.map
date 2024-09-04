@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fm_team_members.css",
+	"sources": [
+		"../../../../func_mods/team_members/fm_team_members.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG;;AHvWH,AAEQ,gBAFQ,CACZ,MAAM,CACF,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;EACzB,WAAW,EAAE,UAAU,GAC1B"
+}

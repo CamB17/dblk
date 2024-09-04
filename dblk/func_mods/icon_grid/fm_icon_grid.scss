@@ -1,0 +1,59 @@
+@import "sass-globals";
+
+.fm_icon_grid {
+    background-color: $tan !important;
+
+    .fm_icon {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 25px;
+
+        svg {
+            max-width: 102px;
+            max-height: 102px;
+        }
+    }
+
+    h5 {
+        color: $marigold3;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    h2,
+    h6, 
+    .h6{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    h6,
+    .h6{
+        width: 75%;
+        text-align: center;
+        margin-top: 4px;
+    }
+
+    .icon_headlines {
+        text-align: center;
+        margin: auto;
+    }
+
+    .icon_columns {
+        display: flex;
+        justify-content: center;
+        @include lt-lg {
+            margin-bottom: 50px;
+        }
+        @include lt-md {
+            margin-bottom: 30px;
+        }
+    }
+}

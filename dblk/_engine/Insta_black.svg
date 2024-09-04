@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Instagram</title>
+    <g id="Desktop-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-R1" transform="translate(-871.000000, -6302.000000)" fill="#000">
+            <g id="Footer" transform="translate(0.000000, 6059.000000)">
+                <g id="Group" transform="translate(834.000000, 243.000000)">
+                    <path d="M63,8 C61.895,8 61,7.105 61,6 C61,4.895 61.895,4 63,4 C64.105,4 65,4.895 65,6 C65,7.105 64.105,8 63,8 M53,24 C48.582,24 45,20.418 45,16 C45,11.582 48.582,8 53,8 C57.418,8 61,11.582 61,16 C61,20.418 57.418,24 53,24 M61,0 L45,0 C40.582,0 37,3.582 37,8 L37,24 C37,28.418 40.582,32 45,32 L61,32 C65.418,32 69,28.418 69,24 L69,8 C69,3.582 65.418,0 61,0" id="Instagram"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

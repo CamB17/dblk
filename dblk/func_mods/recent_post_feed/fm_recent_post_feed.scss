@@ -1,0 +1,21 @@
+@import "sass-globals";
+.recent_post_feed {
+    .title {
+        margin-bottom: 30px;
+        .text {
+            display: flex;
+            align-items: center;
+            h2 {
+                margin: 0px;
+            }
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .fm_button {
+                margin: 0px;
+            }
+        }
+    }
+}

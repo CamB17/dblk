@@ -1,0 +1,54 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 2, ../../global/desktop_menu/desktop_menu.scss */
+ul.menu_header {
+  float: right;
+  display: flex; }
+  /* line 5, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header li {
+    list-style: none; }
+  /* line 8, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header a {
+    text-decoration: none; }
+  /* line 11, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header > li {
+    margin: 0px 15px;
+    display: flex;
+    position: relative; }
+    /* line 16, ../../global/desktop_menu/desktop_menu.scss */
+    ul.menu_header > li.menu_header_item_parent > a {
+      padding-right: 18px;
+      position: relative; }
+      /* line 19, ../../global/desktop_menu/desktop_menu.scss */
+      ul.menu_header > li.menu_header_item_parent > a:before {
+        content: " ";
+        width: 19px;
+        height: 28px;
+        position: absolute;
+        background-image: url(../../../../_images/icon_caret.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 0;
+        top: -1px;
+        transform: rotate(90deg); }
+    /* line 35, ../../global/desktop_menu/desktop_menu.scss */
+    ul.menu_header > li > ul {
+      margin: 0px;
+      list-style: none;
+      position: absolute;
+      left: 0;
+      width: 200px;
+      top: 100%;
+      padding: 15px;
+      background-color: #ffffff; }
+      /* line 47, ../../global/desktop_menu/desktop_menu.scss */
+      ul.menu_header > li > ul > li > ul {
+        margin: 0px;
+        list-style: none; }
+
+/*# sourceMappingURL=desktop_menu.css.map */

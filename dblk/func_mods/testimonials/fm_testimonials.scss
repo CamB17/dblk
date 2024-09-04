@@ -1,0 +1,38 @@
+@import "sass-globals";
+
+.fm_testimonials {
+    .testimonials_hold {
+        .slick-arrow {
+            &.slick-next {
+                right: -65px;
+            }
+
+            &.slick-prev {
+                left: -65px;
+            }
+        }
+
+        .testimonial {
+            display: flex;
+
+            .photo {
+                flex: 0 0 33%;
+            }
+
+            .content {
+                display: flex;
+                align-items: center;
+                align-content: center;
+                flex-wrap: wrap;
+
+                .quote_hold {
+                    flex: 0 0 100%;
+                }
+
+                .meta_hold {
+                    flex: 0 0 100%;
+                }
+            }
+        }
+    }
+}

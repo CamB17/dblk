@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg width='80px' height='80px' viewBox='0 0 80 80' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+    <title>Corner Dots</title>
+    <g id='Desktop-Designs' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>
+        <g id='Home-Page-R1' transform='translate(-1265.000000, -1647.000000)' fill='#29967F'>
+            <g id='Eat-Shop-Stay' transform='translate(0.000000, 1067.000000)'>
+                <g id='Tile-Copy-2' transform='translate(936.000000, 436.000000)'>
+                    <g id='Corner-Dots' transform='translate(369.000000, 184.000000) rotate(-90.000000) translate(-369.000000, -184.000000) translate(329.000000, 144.000000)'>
+                        <circle id='Oval' cx='40' cy='40' r='10'></circle>
+                        <circle id='Oval-Copy-7' cx='40' cy='70' r='10'></circle>
+                        <circle id='Oval-Copy-11' cx='10' cy='70' r='10'></circle>
+                        <circle id='Oval-Copy-12' cx='10' cy='40' r='10'></circle>
+                        <circle id='Oval-Copy-13' cx='10' cy='10' r='10'></circle>
+                        <circle id='Oval-Copy-4' cx='70' cy='40' r='10'></circle>
+                        <circle id='Oval-Copy-8' cx='70' cy='70' r='10'></circle>
+                        <circle id='Oval-Copy' cx='40' cy='10' r='10'></circle>
+                        <circle id='Oval-Copy-2' cx='70' cy='10' r='10'></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

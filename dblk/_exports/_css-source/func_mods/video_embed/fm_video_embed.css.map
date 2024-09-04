@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fm_video_embed.css",
+	"sources": [
+		"../../../../func_mods/video_embed/fm_video_embed.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG;;AHvWH,AAAA,eAAe,CAAC;EACZ,QAAQ,EAAE,QAAQ,GAyBrB;;EA1BD,AAGI,eAHW,CAGX,eAAe,CAAC;IACZ,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,CAAC;IACP,GAAG,EAAE,CAAC;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,MAAM;IACvB,MAAM,EAAE,OAAO,GAalB;;IAzBL,AAeY,eAfG,CAGX,eAAe,AAWV,MAAM,CACH,GAAG,CAAC;MACA,KAAK,EAAE,GAAG,GACb;;IAjBb,AAoBQ,eApBO,CAGX,eAAe,CAiBX,GAAG,CAAC;MACA,UAAU,EAAE,UAAU;MACtB,KAAK,EAAE,GAAG;MACV,SAAS,EAAE,IAAI,GAClB"
+}

@@ -1,0 +1,283 @@
+{
+    "key": "group_5988c6146e821",
+    "title": "Clone: Adv. Settings",
+    "fields": [
+        {
+            "key": "field_5d4ce61d8143f",
+            "label": "Instructions",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "This tab is for advanced use only and contains advanced settings for additional customization. Not every setting will take affect for every module. For example, modules with a Background Image cannot have a new Background Color assigned.",
+            "new_lines": "wpautop",
+            "esc_html": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_6065d20e938e0",
+            "label": "Hide Module",
+            "name": "hide_module",
+            "type": "true_false",
+            "instructions": "Set to inactive to remove from the frontend without deleting from the Database",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Hide",
+            "ui_off_text": "Show",
+            "acfe_field_group_condition": 0,
+            "style": ""
+        },
+        {
+            "key": "field_5988c6b6c7112",
+            "label": "Padding Top",
+            "name": "padding_top",
+            "type": "select",
+            "instructions": "Choose one of the preset options or simply type in a number (and hit enter afterwards) to set the value to that number of pixels. Important: if using a custom number, only enter the number (nothing else). For 0, simply select \"None\" rather than typing 0.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "choices": {
+                "default": "Default",
+                "none": "None",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            },
+            "default_value": "default",
+            "allow_null": 0,
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "allow_custom": 1,
+            "placeholder": "",
+            "search_placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5988c6dac7113",
+            "label": "Padding Bottom",
+            "name": "padding_bottom",
+            "type": "select",
+            "instructions": "Choose one of the preset options or simply type in a number (and hit enter afterwards) to set the value to that number of pixels. Important: if using a custom number, only enter the number (nothing else). For 0, simply select \"None\" rather than typing 0.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "choices": {
+                "default": "Default",
+                "none": "None",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            },
+            "default_value": "default",
+            "allow_null": 0,
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "allow_custom": 1,
+            "placeholder": "",
+            "search_placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5988cf79a29c7",
+            "label": "Margin Top",
+            "name": "margin_top",
+            "type": "select",
+            "instructions": "Choose one of the preset options or simply type in a number (and hit enter afterwards) to set the value to that number of pixels. Important: if using a custom number, only enter the number (nothing else). For 0, simply select \"None\" rather than typing 0.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "choices": {
+                "default": "Default",
+                "none": "None",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            },
+            "default_value": "default",
+            "allow_null": 0,
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "allow_custom": 1,
+            "placeholder": "",
+            "search_placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5988d069a29cc",
+            "label": "Margin Bottom",
+            "name": "margin_bottom",
+            "type": "select",
+            "instructions": "Choose one of the preset options or simply type in a number (and hit enter afterwards) to set the value to that number of pixels. Important: if using a custom number, only enter the number (nothing else). For 0, simply select \"None\" rather than typing 0.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "choices": {
+                "default": "Default",
+                "none": "None",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            },
+            "default_value": "default",
+            "allow_null": 0,
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "allow_custom": 1,
+            "placeholder": "",
+            "search_placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5a0b6b07a7a07",
+            "label": "Custom ID",
+            "name": "custom_id",
+            "type": "text",
+            "instructions": "Instead of giving this a custom class you can add a custom ID. This is especially useful for the in-page navigation. This should not include the hashtag. Example: content",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5988d24d6cc90",
+            "label": "Custom CSS Classes",
+            "name": "custom_css_classes",
+            "type": "text",
+            "instructions": "Add one or multiple CSS classes to this module, separated by one space. Ex: \"class_one class_two class_three\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_5988d2876cc91",
+            "label": "Custom Inline CSS",
+            "name": "custom_inline_css",
+            "type": "text",
+            "instructions": "Example: \"color:#000000;text-align:center;\". It's important to add the semi colon to the end of this string and to not have any spaces between rules.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1665082211,
+    "acfe_categories": {
+        "clone-group": "Clone Group"
+    }
+}

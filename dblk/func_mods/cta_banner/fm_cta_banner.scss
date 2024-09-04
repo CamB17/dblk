@@ -1,0 +1,19 @@
+@import "sass-globals";
+.cta_banner {
+    position: relative;
+    .row {
+        .content {
+            h2 {
+                width: 100%;
+            }
+            p {
+                width: 100%;
+            }
+        }
+        .cta {
+            a.button {
+                margin-top: 15px;
+            }
+        }
+    }
+}

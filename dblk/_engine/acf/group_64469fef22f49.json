@@ -1,0 +1,363 @@
+{
+    "key": "group_64469fef22f49",
+    "title": "FM: Event Venues",
+    "fields": [
+        {
+            "key": "field_64469fefc9b1e",
+            "label": "Venues",
+            "name": "venues",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "acfe_repeater_stylised_button": 0,
+            "layout": "block",
+            "pagination": 0,
+            "rows_per_page": 20,
+            "required_message": "",
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_6446a0c3c9b1f",
+            "button_label": "Add Venue",
+            "sub_fields": [
+                {
+                    "key": "field_6446a0c3c9b1f",
+                    "label": "Title",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_64469fefc9b1e"
+                },
+                {
+                    "key": "field_6446a0edc9b20",
+                    "label": "Image",
+                    "name": "image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Recommended size: 385 x 240 pixels. For additional clarity, use an image at 770 x 480 pixels.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "uploader": "",
+                    "return_format": "array",
+                    "library": "all",
+                    "upload_folder": "",
+                    "acfe_thumbnail": 0,
+                    "required_message": "",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_64469fefc9b1e"
+                },
+                {
+                    "key": "field_6446a142c9b21",
+                    "label": "Capacity",
+                    "name": "capacity",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Add rooms and capacity information below",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "table",
+                    "pagination": 0,
+                    "rows_per_page": 20,
+                    "required_message": "",
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "sub_fields": [
+                        {
+                            "key": "field_6446a173c9b22",
+                            "label": "Location",
+                            "name": "location",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "required_message": "",
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "Indoor Patio",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6446a142c9b21"
+                        },
+                        {
+                            "key": "field_6446a18dc9b23",
+                            "label": "Size",
+                            "name": "size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "40 seated and 55 standing",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6446a142c9b21"
+                        }
+                    ],
+                    "parent_repeater": "field_64469fefc9b1e"
+                },
+                {
+                    "key": "field_6446a1b9c9b24",
+                    "label": "Description",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Description of the Venue",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "required_message": "",
+                    "maxlength": "",
+                    "rows": 6,
+                    "placeholder": "",
+                    "new_lines": "br",
+                    "parent_repeater": "field_64469fefc9b1e"
+                },
+                {
+                    "key": "field_6446a1eac9b25",
+                    "label": "Contact",
+                    "name": "contact",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "layout": "block",
+                    "acfe_seamless_style": 0,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "required_message": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_6446a20cc9b26",
+                            "label": "Name",
+                            "name": "name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "required_message": "",
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6446a214c9b27",
+                            "label": "Phone Number",
+                            "name": "phone_number",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "required_message": "",
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "111.222.3333",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6446a226c9b28",
+                            "label": "Email Address",
+                            "name": "email_address",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "required_message": "",
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "jazmaray.martinez@sagehospitalitygroup.com",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "parent_repeater": "field_64469fefc9b1e"
+                },
+                {
+                    "key": "field_6446a85abe650",
+                    "label": "More Information Button",
+                    "name": "more_information_button",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_save_meta": 0,
+                    "layout": "block",
+                    "acfe_seamless_style": 0,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "required_message": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_6446a28dc9b2a",
+                            "label": "Button",
+                            "name": "button",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_save_meta": 0,
+                            "clone": [
+                                "field_5952c6ec87a71",
+                                "field_5952c6ec87ae5",
+                                "field_5952c6ec87b59",
+                                "field_5952c6ec87bcd"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "acfe_seamless_style": 0,
+                            "acfe_clone_modal_close": 0,
+                            "acfe_clone_modal_button": "",
+                            "acfe_clone_modal_size": "large",
+                            "required_message": "",
+                            "acfe_clone_modal": 0
+                        }
+                    ],
+                    "parent_repeater": "field_64469fefc9b1e"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1696530690,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

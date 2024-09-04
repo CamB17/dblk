@@ -1,0 +1,79 @@
+@import "sass-globals";
+
+.fm_accordion {
+    margin: 40px 0px;
+
+    .accordion {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        border: 2px solid $black;
+        background-color: $black;
+        border-radius: 4px;
+
+        &__intro {
+            position: relative;
+            padding: 20px 65px 20px 30px;
+            cursor: pointer;
+            position: relative;
+
+            div {
+                margin-bottom: 0px;
+                font-weight: 600;
+                color: $white;
+            }
+
+            &::after {
+                position: absolute;
+                right: 29px;
+                content: "";
+                top: 31px;
+                transition: 0.25s;
+                background-image: url('../../../../_images/accordion_arrow_white.svg');
+                background-repeat: no-repeat;
+                width: 32px;
+                height: 21px;
+                background-size: contain;
+            }
+        }
+
+        &__content {
+            padding: 0 30px;
+            max-height: 0;
+            overflow: hidden;
+            will-change: max-height;
+            transition: all 0.25s ease-out;
+            opacity: 0;
+
+            p {
+                &:first-of-type {
+                    margin-top: 0px;
+                }
+            }
+            a.fm_button {
+                margin-bottom: 30px;
+            }
+        }
+
+        &__active {
+            background-color: transparent;
+
+            .accordion__intro {
+                div {
+                    color: $black;
+                }
+                &::after {
+                    background-image: url('../../../../_images/accordion_arrow_black.svg');
+                    transform: rotate(180deg);
+                    top: 24px;
+                }
+            }
+
+            .accordion__content {
+                padding: 0 30px 50px;
+                opacity: 1;
+            }
+        }
+    }
+}
+

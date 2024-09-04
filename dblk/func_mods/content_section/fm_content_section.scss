@@ -1,0 +1,124 @@
+@import "sass-globals";
+
+.fm_content_section {
+    .column_content {
+
+        &.medium-12 {
+            .wysiwyg {
+                @include gt-md {
+                    padding-right: 25%;
+                }
+            }
+
+            &.small-centered {
+                .wysiwyg {
+                    padding: 0;
+                }
+            }
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+        }
+
+        .slideshow {
+            margin: 40px 0px;
+
+            .slide {
+                .slide_hold {}
+            }
+
+
+        }
+    }
+
+    .gform_wrapper {
+        .gform_body {
+
+            input[type="text"],
+            input[type='email'] {
+                height: 50px;
+            }
+
+            input[type="text"],
+            input[type='email'],
+            textarea {
+                border: 1px solid #83998A;
+                border-radius: 4px;
+                padding: 12px 16px !important;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+
+                &:focus-visible,
+                &:active,
+                &:focus {
+                    outline-color: $black;
+                }
+            }
+
+            select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                height: 50px;
+                border-radius: 4px;
+                border: 1px solid #83998A;
+                background: transparent;
+                background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+                background-repeat: no-repeat;
+                background-position-x: calc(100% - 6px);
+                background-position-y: 12px;
+                padding: 12px 16px !important;
+                padding-right: 2rem !important;
+
+                &:focus-visible,
+                &:active,
+                &:focus {
+                    outline-color: $black;
+                }
+            }
+
+            .gfield--type-captcha {
+                margin: 5px 0 15px;
+            }
+
+            .gfield_radio {
+                display: inline-flex;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .gchoice {
+                    width: 25%;
+                    margin-bottom: 12px;
+                }
+            }
+
+            .gfield_label {
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: 0.2px;
+                line-height: 21px;
+            }
+        }
+    }
+    
+    table,
+    tbody,
+     tbody tr:nth-child(even) {
+        background: inherit;
+        border: none;
+    }
+    
+    thead {
+        background-color:$greige;
+        color: $white;
+    }
+    
+     tbody tr:nth-child(even) {
+         border-top: 1px solid $greige3;
+         border-bottom: 1px solid $greige3;
+     }
+
+}

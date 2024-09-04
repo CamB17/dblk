@@ -1,0 +1,27 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/recent_post_feed/fm_recent_post_feed.scss */
+.recent_post_feed .title {
+  margin-bottom: 30px; }
+  /* line 5, ../../func_mods/recent_post_feed/fm_recent_post_feed.scss */
+  .recent_post_feed .title .text {
+    display: flex;
+    align-items: center; }
+    /* line 8, ../../func_mods/recent_post_feed/fm_recent_post_feed.scss */
+    .recent_post_feed .title .text h2 {
+      margin: 0px; }
+  /* line 12, ../../func_mods/recent_post_feed/fm_recent_post_feed.scss */
+  .recent_post_feed .title .link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    /* line 16, ../../func_mods/recent_post_feed/fm_recent_post_feed.scss */
+    .recent_post_feed .title .link .fm_button {
+      margin: 0px; }
+
+/*# sourceMappingURL=fm_recent_post_feed.css.map */

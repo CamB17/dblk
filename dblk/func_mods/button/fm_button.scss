@@ -1,0 +1,262 @@
+@import "sass-globals";
+
+.fm_button{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s all;
+    position: relative;
+    font-family: $headline_aw_serif;
+
+    &:after {
+        content: '';
+        background-image: url(../../../../_images/icon_button_arrow_black.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 26px;
+        width: 24px;
+        height: 9px;
+        background-size: contain;
+        transition: .25s right;
+    }
+
+    &:last-of-type {
+        margin-right: 0px;
+    }
+
+    &.primary,
+    &.secondary,
+    &.tertiary {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+
+    &.primary,
+    &.secondary {
+        color: $white;
+        background-color: $black;
+        border: 1px solid $black;
+        border-radius: 4px;
+        padding: 14px 55px 15px 24px;
+        
+        &.menu {
+            background-color: $mint;
+            border-color: $mint;
+            &:hover,
+            &:focus {
+                background-color: $white;
+                border-color: $white;
+            }
+        }
+
+        @include lt-md {
+            text-align: center;
+        }
+
+        &:after {
+            top: calc(50% - 4px);
+            right: 18px;
+            background-image: url(../../../../_images/icon_button_arrow_white.svg);
+        }
+
+        &:hover,
+        &:focus {
+            &:after {
+                right: 10px;
+            }
+        }
+        
+        // Focus state was getting a bit lost, so adding underline
+        &:focus {
+            text-decoration: underline;
+        }
+
+        &.no_arrow {
+            padding: 14px 24px 15px;
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &.inverted {
+            background-color: transparent;
+            color: $black;
+
+            &:hover,
+            &:focus {
+                color: $white;
+                background-color: $black;
+            }
+        }
+
+        &.back {
+            padding: 14px 24px 15px 55px;
+
+            &:after {
+                transform: rotate(180deg);
+                right: auto !important;
+                left: 18px;
+                transition: 0.25s all;
+            }
+
+            &:hover,
+            &:focus {
+                &:after {
+                    left: 10px;
+                }
+            }
+        }
+    }
+
+    &.secondary {
+        background-color: transparent;
+        color: $black;
+
+        &:after {
+            background-image: url(../../../../_images/icon_button_arrow_black.svg);
+        }
+    }
+
+    &.tertiary {
+        background-color: transparent;
+        padding-bottom: 9px;
+        color: $black;
+    }
+
+    &.tertiary {
+        padding-right: 48px;
+
+        &:after {
+            top: 7px;
+            right: 14px;
+        }
+
+        &:before {
+            content: '';
+            width: calc(100% - 18px);
+            bottom: 0;
+            left: 0;
+            height: 1px;
+            background-color: $black;
+            position: absolute;
+            transition: 0.25s all;
+        }
+
+        &:hover,
+        &:focus {
+            &:after {
+                right: 8px;
+            }
+
+            &:before {
+                width: 28px;
+            }
+        }
+
+
+        &.back {
+            padding-right: 0;
+            padding-left: 48px;
+
+            &:after {
+                transform: rotate(180deg);
+                right: auto !important;
+                left: 14px;
+                transition: 0.25s all;
+            }
+            
+            &:before {
+                left: auto;
+                right: 0;
+            }
+
+            &:hover {
+                &:after {
+                    left: 8px;
+                }
+            }
+        }
+    }
+}
+
+
+.tribe-events-c-events-bar__search .fm_button:focus{
+    background-color: $black;
+}
+
+/* 
+Gravity forms
+*******************************************************************************/
+.gform_button {
+    font-family: $headline_aw_serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: $white;
+    background-color: $black;
+    border: 1px solid $black;
+    border-radius: 4px;
+    padding: 14px 24px 15px 24px;
+    
+    &:hover,
+    &:focus {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+/* 
+Filters
+*******************************************************************************/
+.alm-filters--controls .alm-filters--reset .alm-filters--reset-button,
+.post-type-archive-tribe_events .clear-event-filters__button {
+    background-color: transparent;
+    color: $black;
+    border: 1px solid $black;
+    border-radius: 4px;
+    padding: 14px 44px 15px 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s all;
+    position: relative;
+    font-family: $headline_aw_serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    height: auto;
+    
+    span {
+        transition: 0.25s all;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $black;
+        color: $white;
+        &:after {
+            color: $white;
+        }
+    
+        span {
+            color: $white;
+        }
+
+    }
+
+    &:after {
+        content: "\00d7";
+        right: 16px;
+        position: absolute;
+        font-size: 27px;
+        font-weight: 400;
+        transition: 0.25s all;
+        top: 13px;
+    }
+
+}

@@ -1,0 +1,43 @@
+@import "sass-globals";
+.pb_content_section {
+    @include padding();
+    .row {
+        .columns {
+            ul {
+                &:not(.accordion) &:not(.tabs) &:not(.gform_fields) {
+                    list-style-type: disc;
+                    margin-left: 18px;
+                    li {
+                        padding-left: 9px;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+            ol {
+                list-style-type: decimal;
+                margin-left: 18px;
+                li {
+                    padding-left: 9px;
+                    margin-bottom: 8px;
+                }
+            }
+            .accordion {
+                .accordion-item {
+                    .accordion-title {
+                        font-size: 1rem;
+                    }
+                    .accordion-content {
+                        color: $black;
+                    }
+                }
+            }
+            .tabs {
+                .tabs-title {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

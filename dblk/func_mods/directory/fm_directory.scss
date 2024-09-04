@@ -1,0 +1,492 @@
+@import "sass-globals";
+
+.fm_directory {
+    background-color: $tan;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .directory_wrap {
+        @include padding();
+        @include lt-md {
+            padding-bottom: 0;
+        }
+        position: relative;
+        .directory_blob {
+            position: absolute;
+            left: 0;
+            bottom: 110px;
+            z-index: 0;
+        }
+        svg {
+            tspan {
+                font-family: $sans;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .directory_map {
+        display: none;
+
+        @include gt-custom(760px) {
+            display: block;
+            width: 550px;
+            flex: 1 1 550px;
+        }
+
+        polygon,
+        rect {
+            transition: 0.25s ease all;
+        }
+
+        @include gt-sm() {
+            svg {
+                transition: 0.25s ease all;
+
+                // foreignObject{
+                //     position: absolute;
+                //     width: 300px;
+                //     height: 200px;
+                //     display: block;
+                //     background-color: red;
+                //     top: 0;
+                //     left: 0;
+                //     z-index: 9999;
+                // }
+                // .map-fade:not(.map-active),
+                // .map-fade:not(#Artwork){
+                //     opacity: 0.5;
+                // }
+                // .map-active{
+                //     opacity: 1 !important;
+                // }
+            }
+        }
+
+        .directory_map_overlays {
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+
+        .map-active {
+            position: relative;
+
+            &.restaurant {
+
+                polygon,
+                rect {
+                    fill: $marigold;
+                }
+            }
+
+            &.shop {
+
+                polygon,
+                rect {
+                    fill: $mint;
+                }
+            }
+
+            &.stay {
+                fill: $cotton-candy;
+
+                polygon,
+                rect {
+                    fill: $cotton-candy;
+                }
+            }
+
+            &.service {
+
+                polygon,
+                rect {
+                    fill: $teal3;
+                }
+            }
+        }
+
+        .map_overlays {
+            .overlay {
+                display: none;
+                position: absolute;
+                top: 20px;
+                left: 100px;
+                padding: 10px;
+                background: $white;
+                border: 1px solid $black;
+                border-radius: 4px;
+                text-decoration: none;
+                flex-flow: row wrap;
+                align-items: center;
+                width: 300px;
+                min-height: 100px;
+
+                @include lt-custom(1000px) {
+                    transform: scale(84%);
+                    transform-origin: top left;
+                }
+
+                &.overlay-active {
+                    display: flex;
+                }
+
+                img {
+                    height: 100%;
+                    max-width: 75px;
+                }
+
+                .content {
+                    max-width: calc(100% - 75px);
+                    padding-left: 15px;
+
+                    span {
+                        @include h5();
+                        margin-bottom: 5px;
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                        hyphens: auto;
+                        &.small_label {
+                            font-size: 17px;
+                        }
+                    }
+
+                    .fm_button {
+                        margin-bottom: 0;
+                        padding-bottom: 0;
+
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+
+                &:before {
+                    //arrows
+                    content: '';
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background: $white;
+                    border: 1px solid $black;
+                    border-top-width: 0px;
+                    border-left-width: 0px;
+                    transform: rotate(225deg);
+                    top: -6px;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                }
+
+                &.arrow-right:before {
+                    transform: rotate(315deg);
+                    top: calc(50% - 5px);
+                    left: auto;
+                    right: -6px;
+                }
+
+                &.arrow-left:before {
+                    transform: rotate(135deg);
+                    top: calc(50% - 5px);
+                    left: -6px;
+                    right: auto;
+                }
+
+                &.arrow-bottom-center:before {
+                    transform: rotate(45deg);
+                    top: auto;
+                    bottom: -6px;
+                    left: 0;
+                    right: 0;
+                }
+
+                &.arrow-top-right:before {
+                    left: auto;
+                    right: 50px;
+                }
+
+                &.arrow-top-left:before {
+                    left: 50px;
+                    right: auto;
+                }
+
+                &:hover,
+                &:focus {
+                    cursor: pointer;
+
+                    .fm_button.tertiary:after {
+                        right: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .directory_list {
+        .link-to-post {
+            display: list-item;
+        }
+        
+        .directory_section {
+            margin-bottom: 30px;
+        }
+
+        .link-to-map {
+            display: none;
+        }
+
+        @include gt-custom(760px) {
+            width: calc(100% - 550px);
+            flex: 1 1 calc(100% - 550px);
+            padding-left: 20px;
+
+            .link-to-post {
+                display: none;
+            }
+
+            .link-to-map {
+                display: list-item;
+                position: relative;
+                
+                a {
+                    position: absolute;
+                    display: block;
+                    right: 10px;
+                    z-index: 1;
+                    top: 15px;
+                    opacity: 0.25;
+                    height: 9px;
+                    
+                    &:after {
+                        content: '';
+                        background-image: url(../../../../_images/icon_button_arrow_black.svg);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        right: 26px;
+                        width: 24px;
+                        height: 9px;
+                        background-size: contain;
+                        transition: .25s right;
+                    }
+                    
+                    &:hover,
+                    &:focus {
+                        opacity: 1;
+                    }
+                    
+                    @include lt-custom(880px) {
+                        position: relative;
+                        margin-bottom: 15px;
+                        right: -35px;
+                        top: 0;
+                        width: 24px;
+                    }
+                    
+                }
+            }
+        }
+
+        @include gt-lg() {
+            padding-left: 40px;
+        }
+
+        .directory_section {
+            @include lt-custom(760px) {
+                padding-left: $xs-spacing;
+                padding-right: $xs-spacing;
+            }
+        }
+
+        .directory_section_title {
+            margin-bottom: 15px;
+            a {
+                text-decoration: none;
+                color: $black;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        ol {
+            list-style-type: none;
+            counter-reset: list-counter;
+            padding-left: 0;
+            margin-left: 20px;
+            columns: 1;
+            display: block;
+
+            @include gt-custom(560px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include gt-custom(760px) {
+                display: block;
+            }
+
+            @include gt-lg() {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            li {
+                @include h6();
+                display: list-item;
+                margin-bottom: 5px;
+                position: relative;
+
+                &:before {
+                    content: counter(list-counter) ". ";
+                    counter-increment: list-counter;
+                    position: absolute;
+                    left: -25px;
+                    top: 4px;
+                    padding: 2px 5px;
+                    top: 0px;
+                    padding: 6px 7px 2px 9px;
+                    height: 100%;
+                    border-radius: 4px 0 0 4px;
+                }
+            }
+
+            .directory_list_item {
+                display: inline-flex;
+                text-decoration: none;
+                position: relative;
+                background-color: transparent;
+                border-radius: 0 4px 4px 0;
+                padding: 6px 9px 3px 9px;
+                transition: none;
+                line-height: inherit;
+                text-align: left;
+
+                &:hover,
+                &:focus,
+                &.list-active {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+
+                span {
+                    position: relative;
+                    z-index: 2;
+                }
+            }
+        }
+
+
+        .directory_section--restaurant {
+            li {
+                &.list-active {
+                    &:before {
+                        background-color: $burnt_orange;
+                    }
+
+                    span {
+                        background-color: $burnt_orange;
+                    }
+                }
+
+                .directory_list_item {
+                    &:hover,
+                    &:focus {
+                        background-color: $burnt_orange;
+                    }
+                }
+            }
+        }
+
+        .directory_section--shop {
+            li {
+                &.list-active {
+                    &:before {
+                        background-color: $mint;
+                    }
+
+                    span {
+                        background-color: $mint;
+                    }
+                }
+
+                .directory_list_item {
+                    &:hover,
+                    &:focus {
+                       background-color: $mint;
+                    }
+                }
+            }
+        }
+
+        .directory_section--stay {
+            ol {
+                columns: 1;
+            }
+
+            li {
+                &.list-active {
+                    &:before {
+                        background-color: $rust3;
+                    }
+
+                    span {
+                        background-color: $rust3;
+                    }
+                }
+
+                .directory_list_item {
+                    &:hover,
+                    &:focus {
+                       background-color: $rust3;
+                    }
+                }
+            }
+        }
+
+        .directory_section--service {
+            ol {
+                columns: 1;
+            }
+
+            li {
+                &.list-active {
+                    &:before {
+                        background-color: $teal3;
+                    }
+
+                    span {
+                        background-color: $teal3;
+                    }
+                }
+
+                .directory_list_item {
+                    &:hover,
+                    &:focus {
+                       background-color: $teal3;
+                    }
+                }
+            }
+        }
+
+        .fm_button {
+            margin-top: 5px;
+            margin-bottom: $medium-spacing;
+        }
+
+    }
+
+    .dots_wrap {
+        padding-bottom: 20px;
+        max-width: 75rem;
+        margin: 0 auto;
+        padding-left: 0.625rem;
+
+        @include gt-sm() {
+            padding-left: 0.9375rem;
+        }
+
+        @include gt-custom(760px) {
+            padding-top: 80px;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "key": "group_6511a778af40c",
+    "title": "FM: Instagram Feed",
+    "fields": [
+        {
+            "key": "field_6511a778ba6b8",
+            "label": "Title",
+            "name": "title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This displays at the top left of the feed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "required_message": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511a78dc0d91",
+            "label": "Feed Number",
+            "name": "feed_number",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "This is the shortcode feed number that <a href=\"\/wp-admin\/admin.php?page=sbi-feed-builder\" target=\"_blank\">the plugin<\/a> provides. If the shortcode for a feed is: \"[instagram-feed feed=1]\", then the value for this box would be \"1\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "required_message": "",
+            "min": 1,
+            "max": "",
+            "placeholder": "",
+            "step": 1,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511ac9f179ef",
+            "label": "Instagram Handle",
+            "name": "instagram_handle",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "@Dairyblock",
+            "required_message": "",
+            "maxlength": "",
+            "placeholder": "@Dairyblock",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6511acc4179f0",
+            "label": "External Instagram Account URL",
+            "name": "external_instagram_account_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This will automatically open in a new tab.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "https:\/\/www.instagram.com\/dairyblock\/",
+            "required_message": "",
+            "maxlength": "",
+            "placeholder": "https:\/\/www.instagram.com\/dairyblock\/",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1695657223,
+    "acfe_categories": {
+        "func-mods": "Func Mods"
+    }
+}

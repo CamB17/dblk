@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'San Clemente';
+  src: url("../../../../_engine/fonts/sanclemente-script-webfont.woff") format("woff"), url("../../../../_engine/fonts/sanclemente-script-webfont.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'awesome_serif_xt';
+  src: url("../../../../_engine/fonts/awesome_serif/awesomeserif-boldextratall-webfont.woff2") format("woff2"), url("../../../../_engine/fonts/awesome_serif/awesomeserif-boldextratall-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'awesome_serif';
+  src: url("../../../../_engine/fonts/awesome_serif/awesomeserif-boldregular-webfont.woff2") format("woff2"), url("../../../../_engine/fonts/awesome_serif/awesomeserif-boldregular-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'awesome_serif';
+  src: url("../../../../_engine/fonts/awesome_serif/awesomeserif-semiboldregular-webfont.woff2") format("woff2"), url("../../../../_engine/fonts/awesome_serif/awesomeserif-semiboldregular-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jokker';
+  src: url("../../../../_engine/fonts/jokker/Jokker-Bold.woff2") format("woff2"), url("../../../../_engine/fonts/jokker/Jokker-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jokker';
+  src: url("../../../../_engine/fonts/jokker/Jokker-Medium.woff2") format("woff2"), url("../../../../_engine/fonts/jokker/Jokker-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jokker';
+  src: url("../../../../_engine/fonts/jokker/Jokker-Regular.woff2") format("woff2"), url("../../../../_engine/fonts/jokker/Jokker-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jokker';
+  src: url("../../../../_engine/fonts/jokker/Jokker-Semibold.woff2") format("woff2"), url("../../../../_engine/fonts/jokker/Jokker-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

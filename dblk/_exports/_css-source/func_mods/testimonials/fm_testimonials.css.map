@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fm_testimonials.css",
+	"sources": [
+		"../../../../func_mods/testimonials/fm_testimonials.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG;;AHvWH,AAGY,gBAHI,CACZ,kBAAkB,CACd,YAAY,AACP,WAAW,CAAC;EACT,KAAK,EAAE,KAAK,GACf;;;AALb,AAOY,gBAPI,CACZ,kBAAkB,CACd,YAAY,AAKP,WAAW,CAAC;EACT,IAAI,EAAE,KAAK,GACd;;;AATb,AAYQ,gBAZQ,CACZ,kBAAkB,CAWd,YAAY,CAAC;EACT,OAAO,EAAE,IAAI,GAoBhB;;EAjCT,AAeY,gBAfI,CACZ,kBAAkB,CAWd,YAAY,CAGR,MAAM,CAAC;IACH,IAAI,EAAE,OAAO,GAChB;;EAjBb,AAmBY,gBAnBI,CACZ,kBAAkB,CAWd,YAAY,CAOR,QAAQ,CAAC;IACL,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,aAAa,EAAE,MAAM;IACrB,SAAS,EAAE,IAAI,GASlB;;IAhCb,AAyBgB,gBAzBA,CACZ,kBAAkB,CAWd,YAAY,CAOR,QAAQ,CAMJ,WAAW,CAAC;MACR,IAAI,EAAE,QAAQ,GACjB;;IA3BjB,AA6BgB,gBA7BA,CACZ,kBAAkB,CAWd,YAAY,CAOR,QAAQ,CAUJ,UAAU,CAAC;MACP,IAAI,EAAE,QAAQ,GACjB"
+}

@@ -1,0 +1,452 @@
+@import "sass-globals";
+
+footer {
+    position: relative;
+    
+    @include gt-sm() {
+        overflow: hidden;
+    }
+
+    @include lt-custom(767px) {
+        .small-12 {
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+
+    >svg {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        @include lt-custom(767px) {
+            display: none;
+        }
+    }
+
+    a,
+    div {
+        font-size: 14px;
+    }
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .footer_blob {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+
+        @include lt-lg {
+            bottom: -60px;
+            right: -80px;
+        }
+
+        @include lt-custom(950px) {
+            right: -130px;
+        }
+
+        @include lt-custom(900px) {
+            right: -230px;
+        }
+
+        @include lt-custom(800px) {
+            display: none;
+        }
+    }
+
+    .top-footer {
+        padding: 80px 0px 60px;
+        
+        .columns {
+            position: relative;
+            z-index: 2;
+        }
+
+        .contact {
+            @include lt-md {
+                margin-top: 30px;
+            }
+
+            p,
+            strong {
+                font-size: 14px;
+                letter-spacing: 0;
+                line-height: 21px;
+                font-family: $sans;
+            }
+
+            strong {
+                margin-top: 15px;
+                display: block;
+            }
+
+            .fm_button {
+                margin-bottom: 0;
+            }
+        }
+
+        .social {
+            @include lt-custom(767px) {
+                margin-top: 20px;
+            }
+
+            .form {
+                .gform_wrapper {
+                    margin-top: -7px;
+                }
+
+                form {
+                    display: flex;
+                    margin: 0;
+
+                    @include lt-lg {
+                        flex-wrap: wrap;
+                    }
+
+                    @include lt-custom(767px) {
+                        flex-wrap: nowrap;
+                    }
+
+                    .gform-body {
+                        @include lt-custom(767px) {
+                            width: 100%;
+                            padding-right: 20px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-end;
+                        }
+
+                        ul {
+                            width: 100%;
+
+                            li {
+                                &.gfield {
+                                    margin-top: 0;
+                                }
+
+                                width: 100%;
+
+                                &.gfield--type-email {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    label {
+                                        margin-top: 5px;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        letter-spacing: 0.2px;
+                                        line-height: 21px;
+                                        font-family: $headline;
+
+                                        .gfield_required {
+                                            margin-left: 1px;
+                                            color: $black;
+                                        }
+                                    }
+
+                                    .ginput_container {
+                                        margin-top: 0;
+                                    }
+
+                                    input {
+                                        background-color: transparent;
+                                        border: none;
+                                        border-bottom: 1px solid $black;
+                                        width: 100%;
+
+                                        &:focus,
+                                        &:active {
+                                            outline: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .gform_footer {
+                        text-align: right;
+                        max-width: 140px;
+                        margin-left: auto;
+                        margin-top: -4px;
+                        padding: 0;
+                        width: auto;
+
+                        @include lt-lg {
+                            text-align: left;
+                            margin-right: auto;
+                            margin-left: 0;
+                            margin-top: 15px;
+                        }
+
+                        @include lt-custom(767px) {
+                            .fm_button {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        .primary {
+                            background-color: transparent !important;
+                            padding-bottom: 9px !important;
+                            color: #000000 !important;
+                            border: 0px !important;
+                            padding-top: 1px;
+                            padding-left: 0px;
+
+                        }
+
+                        .fm_button.primary:before {
+                            content: '';
+                            width: calc(100% - 18px);
+                            bottom: 0;
+                            left: 0;
+                            height: 1px;
+                            background-color: #000000;
+                            position: absolute;
+                            transition: 0.25s all;
+                        }
+
+                        .fm_button.primary:after {
+                            top: 7px;
+                            right: 14px;
+                            background-image: url(../../../../_images/icon_button_arrow_black.svg) !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .social_wrap {
+            margin-top: 50px;
+
+            @include lt-md {
+                margin-top: 30px;
+            }
+
+        }
+
+        .h5 {
+            margin-bottom: 20px;
+
+            a {
+                font-size: 21px;
+                color: $marigold3;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+
+            .menus {
+                width: 100%;
+                display: flex;
+
+                >div {
+                    flex-direction: column;
+                    padding: 0;
+                    flex-wrap: wrap;
+                    flex: 1;
+
+                    ul {
+                        margin: 0;
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            margin-bottom: 10px;
+                            width: 100%;
+
+                            &.tertiary-menu_item-mobile-header-only {
+                                display: none;
+                            }
+
+                            a {
+                                display: block;
+                                font-size: 14px;
+                                font-weight: 500;
+                                letter-spacing: 0.2px;
+                                line-height: 21px;
+                                font-family: $headline;
+                                text-decoration: none;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+
+                            &:last-of-type {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        &.tertiary-menu {
+                            li {}
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo {
+            img {
+                opacity: .8;
+                transition: opacity .25s;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .bottom-footer {
+        padding: 19px 0px;
+
+        .copyright {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        p,
+        a {
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 21px;
+            color: $black;
+            margin-bottom: 0;
+            margin-right: 7px;
+        }
+
+        a {
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .links {
+            display: flex;
+            justify-content: flex-end;
+
+            a {
+                padding-left: 30px;
+            }
+        }
+    }
+
+    /**
+    New newsletter styling.
+    Swapped all forms to html5 and set not to use legacy markup (ADA updates).
+    Only this form needed styling. Just easier to abstract down here for now
+    & keep the previous code above.
+    */
+    .form--newsletter {
+        .gform_wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .gform_heading {
+                order: 2;
+                margin-top: 15px;
+            }
+
+            form {
+                align-items: flex-end;
+
+                .gform-body {
+                    width: 100%;
+
+                    .gfield label {
+                        margin-top: 5px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        letter-spacing: 0.2px;
+                        line-height: 21px;
+                        font-family: $headline;
+                        margin-bottom: 0;
+                    }
+
+                    .gfield input {
+                        background-color: transparent;
+                        border: none;
+                        border-bottom: 1px solid #000;
+                        width: calc(100% - 15px);
+                        padding-left: 0;
+                    }
+                }
+
+                .gform_footer {
+                    button {
+                        margin-bottom: 0;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+                .validation_message {
+                    padding: 4px 6px;
+                }
+            }
+        }
+        
+        .gform_validation_error {
+            form {
+                align-items: flex-start;
+                
+                .gform_footer {
+                    margin-top: 30px !important;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.back-to-top {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -24px;
+    height: 48px;
+    width: 32px;
+    background-size: 12px;
+    background-color: $black;
+    background-image: url(../../../../_images/icon_up_arrow_white.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    &:hover,
+    &:focus {
+        background-color: $greige;
+    }
+    
+    @include gt-sm() {
+        display: none;
+    }
+}
+
+.gdpr-infobar-visible {
+    .bottom-footer {
+        padding-bottom: 100px;
+    }
+}

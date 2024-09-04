@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fm_recent_post_feed.css",
+	"sources": [
+		"../../../../func_mods/recent_post_feed/fm_recent_post_feed.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../_engine/scss/_variables.scss",
+		"../../../../_engine/scss/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AGkTA;;GAEG;AAkDH;;;GAGG;;AHxWH,AACI,iBADa,CACb,MAAM,CAAC;EACH,aAAa,EAAE,IAAI,GAgBtB;;EAlBL,AAGQ,iBAHS,CACb,MAAM,CAEF,KAAK,CAAC;IACF,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM,GAItB;;IATT,AAMY,iBANK,CACb,MAAM,CAEF,KAAK,CAGD,EAAE,CAAC;MACC,MAAM,EAAE,GAAG,GACd;;EARb,AAUQ,iBAVS,CACb,MAAM,CASF,KAAK,CAAC;IACF,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,QAAQ,GAI5B;;IAjBT,AAcY,iBAdK,CACb,MAAM,CASF,KAAK,CAID,UAAU,CAAC;MACP,MAAM,EAAE,GAAG,GACd"
+}

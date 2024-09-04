@@ -1,0 +1,180 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/news_archive/news_tile.scss */
+.news-tile-wrap,
+.tastemaker-tile-wrap {
+  margin-bottom: 30px; }
+
+/* line 8, ../../func_mods/news_archive/news_tile.scss */
+.news-tile,
+.tastemaker-tile {
+  position: relative;
+  border: 1px solid #a0928c;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  transition: 0.25s ease all;
+  width: 100%; }
+  @media only screen and (min-width: 1024px) {
+    /* line 8, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile,
+    .tastemaker-tile {
+      height: 100%; } }
+  /* line 23, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile:hover, .news-tile:focus,
+  .tastemaker-tile:hover,
+  .tastemaker-tile:focus {
+    background-color: #ffffff; }
+    /* line 28, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile:hover .fm_button:after, .news-tile:focus .fm_button:after,
+    .tastemaker-tile:hover .fm_button:after,
+    .tastemaker-tile:focus .fm_button:after {
+      right: 8px; }
+    /* line 32, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile:hover .fm_button:before, .news-tile:focus .fm_button:before,
+    .tastemaker-tile:hover .fm_button:before,
+    .tastemaker-tile:focus .fm_button:before {
+      width: 28px; }
+  /* line 38, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile .image,
+  .tastemaker-tile .image {
+    position: relative;
+    overflow: hidden;
+    padding-top: 70%;
+    width: 100%;
+    background-color: #a0928c; }
+    /* line 45, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .image img,
+    .tastemaker-tile .image img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: 0 auto;
+      object-fit: cover;
+      object-position: center center;
+      height: 100%;
+      width: 100%; }
+  /* line 59, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile .inner,
+  .tastemaker-tile .inner {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    align-self: normal;
+    align-items: flex-start;
+    margin-bottom: 30px; }
+  /* line 70, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile .content,
+  .tastemaker-tile .content {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px; }
+    /* line 75, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .content p,
+    .tastemaker-tile .content p {
+      margin-bottom: 30px; }
+      /* line 78, ../../func_mods/news_archive/news_tile.scss */
+      .news-tile .content p:last-of-type,
+      .tastemaker-tile .content p:last-of-type {
+        margin-bottom: 0; }
+    /* line 83, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .content h2,
+    .tastemaker-tile .content h2 {
+      margin-bottom: 4px; }
+    /* line 87, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .content h5,
+    .tastemaker-tile .content h5 {
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 2px; }
+    /* line 93, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .content .type_label,
+    .tastemaker-tile .content .type_label {
+      margin-bottom: 5px;
+      display: block;
+      width: 100%; }
+  /* line 100, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile .hours,
+  .tastemaker-tile .hours {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    /* line 105, ../../func_mods/news_archive/news_tile.scss */
+    .news-tile .hours li,
+    .tastemaker-tile .hours li {
+      list-style: none;
+      margin-bottom: 5px;
+      display: flex;
+      flex-flow: row wrap; }
+      /* line 111, ../../func_mods/news_archive/news_tile.scss */
+      .news-tile .hours li span,
+      .tastemaker-tile .hours li span {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        line-height: 21px;
+        font-family: "Jokker", sans-serif;
+        display: inline;
+        margin-bottom: 0;
+        flex: 1 1 60%; }
+        /* line 154, ../scss/_mixins.scss */
+        .news-tile .hours li span.white,
+        .tastemaker-tile .hours li span.white {
+          color: #ffffff; }
+        /* line 158, ../scss/_mixins.scss */
+        .news-tile .hours li span.greige,
+        .tastemaker-tile .hours li span.greige {
+          color: #81746E; }
+        /* line 162, ../scss/_mixins.scss */
+        .news-tile .hours li span.burnt_umber,
+        .tastemaker-tile .hours li span.burnt_umber {
+          color: #ba5d00; }
+        /* line 166, ../scss/_mixins.scss */
+        .news-tile .hours li span.tan,
+        .tastemaker-tile .hours li span.tan {
+          color: #F2EDEB; }
+        /* line 170, ../scss/_mixins.scss */
+        .news-tile .hours li span.cotton_candy,
+        .tastemaker-tile .hours li span.cotton_candy {
+          color: #F0AE84; }
+        /* line 174, ../scss/_mixins.scss */
+        .news-tile .hours li span.mint,
+        .tastemaker-tile .hours li span.mint {
+          color: #C4DBCB; }
+        /* line 178, ../scss/_mixins.scss */
+        .news-tile .hours li span.marigold,
+        .tastemaker-tile .hours li span.marigold {
+          color: #9b5b00; }
+        /* line 182, ../scss/_mixins.scss */
+        .news-tile .hours li span.red,
+        .tastemaker-tile .hours li span.red {
+          color: #DF2F30; }
+        /* line 186, ../scss/_mixins.scss */
+        .news-tile .hours li span.teal,
+        .tastemaker-tile .hours li span.teal {
+          color: #0B856F; }
+        /* line 117, ../../func_mods/news_archive/news_tile.scss */
+        .news-tile .hours li span.time,
+        .tastemaker-tile .hours li span.time {
+          font-weight: 400;
+          flex: 1 1 40%; }
+  /* line 125, ../../func_mods/news_archive/news_tile.scss */
+  .news-tile .fm_button,
+  .tastemaker-tile .fm_button {
+    position: absolute;
+    bottom: 10px; }
+
+/*# sourceMappingURL=news_tile.css.map */

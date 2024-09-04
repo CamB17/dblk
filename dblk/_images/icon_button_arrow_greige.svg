@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="11px" viewBox="0 0 26 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/Primary/White" transform="translate(-198.000000, -19.000000)" stroke="#81746E" stroke-width="1.5">
+            <g id="Arrow" transform="translate(198.000000, 20.052941)">
+                <line x1="23.2500186" y1="4.33913499" x2="0" y2="4.33913499" id="Stroke-1"></line>
+                <path d="M18.92449,8.89411765 L23.92449,4.44705882 L18.92449,0" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

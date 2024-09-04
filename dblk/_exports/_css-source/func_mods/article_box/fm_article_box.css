@@ -1,0 +1,49 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 4, ../../func_mods/article_box/fm_article_box.scss */
+.fm_article_box .hold_me {
+  background-color: #f1f1f1;
+  height: 100%;
+  padding-bottom: 50px;
+  position: relative;
+  transition: background-color .25s; }
+  /* line 11, ../../func_mods/article_box/fm_article_box.scss */
+  .fm_article_box .hold_me:hover {
+    background-color: #e4e4e4; }
+  /* line 15, ../../func_mods/article_box/fm_article_box.scss */
+  .fm_article_box .hold_me .image {
+    background-size: cover;
+    background-position: center center;
+    padding-top: 62%;
+    width: 100%;
+    transition: 0.25s all; }
+  /* line 23, ../../func_mods/article_box/fm_article_box.scss */
+  .fm_article_box .hold_me .content {
+    padding: 30px;
+    overflow: hidden; }
+    /* line 27, ../../func_mods/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me .content h4 {
+      margin-bottom: 12px; }
+    /* line 31, ../../func_mods/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me .content p.date {
+      font-size: 13px;
+      font-weight: bold; }
+    /* line 37, ../../func_mods/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me .content .categories a {
+      color: #1c64a3;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 13px; }
+    /* line 45, ../../func_mods/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me .content .fm_button {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      margin: 0px; }
+
+/*# sourceMappingURL=fm_article_box.css.map */

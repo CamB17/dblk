@@ -1,0 +1,72 @@
+/**
+Blob Hovers
+**/
+/**
+Found Script
+-- I Neeed to add more options to this
+**/
+/* line 3, ../../func_mods/accordion/fm_accordion.scss */
+.fm_accordion {
+  margin: 40px 0px; }
+  /* line 6, ../../func_mods/accordion/fm_accordion.scss */
+  .fm_accordion .accordion {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    border-radius: 4px; }
+    /* line 14, ../../func_mods/accordion/fm_accordion.scss */
+    .fm_accordion .accordion__intro {
+      position: relative;
+      padding: 20px 65px 20px 30px;
+      cursor: pointer;
+      position: relative; }
+      /* line 20, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__intro div {
+        margin-bottom: 0px;
+        font-weight: 600;
+        color: #ffffff; }
+      /* line 26, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__intro::after {
+        position: absolute;
+        right: 29px;
+        content: "";
+        top: 31px;
+        transition: 0.25s;
+        background-image: url("../../../../_images/accordion_arrow_white.svg");
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 21px;
+        background-size: contain; }
+    /* line 40, ../../func_mods/accordion/fm_accordion.scss */
+    .fm_accordion .accordion__content {
+      padding: 0 30px;
+      max-height: 0;
+      overflow: hidden;
+      will-change: max-height;
+      transition: all 0.25s ease-out;
+      opacity: 0; }
+      /* line 49, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__content p:first-of-type {
+        margin-top: 0px; }
+      /* line 53, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__content a.fm_button {
+        margin-bottom: 30px; }
+    /* line 58, ../../func_mods/accordion/fm_accordion.scss */
+    .fm_accordion .accordion__active {
+      background-color: transparent; }
+      /* line 62, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__active .accordion__intro div {
+        color: #000000; }
+      /* line 65, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__active .accordion__intro::after {
+        background-image: url("../../../../_images/accordion_arrow_black.svg");
+        transform: rotate(180deg);
+        top: 24px; }
+      /* line 72, ../../func_mods/accordion/fm_accordion.scss */
+      .fm_accordion .accordion__active .accordion__content {
+        padding: 0 30px 50px;
+        opacity: 1; }
+
+/*# sourceMappingURL=fm_accordion.css.map */
